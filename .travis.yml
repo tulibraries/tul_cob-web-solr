@@ -11,7 +11,7 @@ before_install:
 
 install:
   - cd ansible-playbook-solrcloud
-  - make up
+  - make build
   - bash -c 'while [[ "$(curl -s -o /dev/null -w ''%{http_code}'' localhost:8081/solr)" != "302" ]]; do sleep 5; done'
   - make create-local-collections
   - make create-aliases
