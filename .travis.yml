@@ -18,7 +18,7 @@ install:
   - cd ..
 
 script:
-  - curl http://localhost:8081/solr/funcake/admin/ping | jq .status
+  - curl http://localhost:8090/solr/funcake/admin/ping | jq .status
 
 after_success:
   - true
