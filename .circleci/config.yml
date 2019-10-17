@@ -1,0 +1,76 @@
+version: 2
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - run_tests
+  deploy:
+    jobs:
+      - rc_deploy:
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /.*(-qa|-stage|-rc)$/
+  prod_deploy:
+    jobs:
+      - request-prod-deploy:
+          type: approval
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              ignore: /.*(-qa|-stage|-rc)$/
+      - prod_deploy:
+          requires:
+            - request-prod-deploy
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              ignore: /.*(-qa|-stage|-rc)$/
+
+jobs:
+  run_tests:
+    machine: true
+
+    steps:
+      - checkout
+      - add_ssh_keys:
+        fingerprints:
+          - ""
+      - run:
+        name: Set up a local Solr with build's solr config.
+        command: bash .circleci/setup_solr.sh
+      - run:
+        name: Test that we can get to the solr collection successfully.
+        command: bash .circleci/test.sh
+
+  rc_deploy:
+    docker:
+      - image: circleci/python:3.6.6
+        environment:
+          PIPENV_VENV_IN_PROJECT: true
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "2f:37:66:17:11:ae:f9:0f:9e:52:98:41:fe:d0:0c:78"
+            - "59:d3:45:4c:e5:31:4e:cd:64:c0:e3:2a:73:a3:55:94"
+      - run:
+          command: echo "rc deploy"
+
+  prod_deploy:
+    docker:
+      - image: circleci/python:3.6.6
+        environment:
+          PIPENV_VENV_IN_PROJECT: true
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "2f:37:66:17:11:ae:f9:0f:9e:52:98:41:fe:d0:0c:78"
+            - "59:d3:45:4c:e5:31:4e:cd:64:c0:e3:2a:73:a3:55:94"
+      - run:
+          command: echo "prod deploy"
