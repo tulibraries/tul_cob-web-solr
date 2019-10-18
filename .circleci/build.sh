@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 set -e
 
-zip -r ~/solrconfig.zip ~/project -x .git
+cd ~/project
+zip -r ~/solrconfig.zip . -x .git
