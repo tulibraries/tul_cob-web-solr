@@ -12,7 +12,7 @@ workflows:
             branches:
               ignore: /.*/
             tags:
-              ignore: /.*(-qa|-stage|-rc)$/
+              only: /.*(-qa|-stage|-rc)$/
       - run_deploy:
           requires:
             - run_tests
