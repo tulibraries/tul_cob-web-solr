@@ -14,6 +14,8 @@ workflows:
             tags:
               ignore: /.*(-qa|-stage|-rc)$/
       - run_deploy:
+        requires:
+          - run_tests
           filters:
             branches:
               ignore: /.*/
