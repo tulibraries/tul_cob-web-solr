@@ -8,6 +8,11 @@ workflows:
   deploy:
     jobs:
       - run_tests
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              ignore: /.*(-qa|-stage|-rc)$/
       - run_deploy:
           filters:
             branches:
@@ -17,6 +22,11 @@ workflows:
   prod_deploy:
     jobs:
       - run_tests
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              ignore: /.*(-qa|-stage|-rc)$/
       - request-prod-deploy:
           type: approval
           filters:
