@@ -7,7 +7,7 @@ workflows:
       - run_tests
   deploy:
     jobs:
-      - rc_deploy:
+      - run_deploy:
           filters:
             branches:
               ignore: /.*/
@@ -22,7 +22,7 @@ workflows:
               ignore: /.*/
             tags:
               ignore: /.*(-qa|-stage|-rc)$/
-      - prod_deploy:
+      - run_deploy:
           requires:
             - request-prod-deploy
           filters:
@@ -47,7 +47,7 @@ jobs:
           name: Test that we can get to the solr collection successfully.
           command: bash .circleci/test.sh
 
-  rc_deploy:
+  run_deploy:
     docker:
       - image: circleci/python:3.6.6
         environment:
@@ -58,17 +58,4 @@ jobs:
           fingerprints:
             - "59:d3:45:4c:e5:31:4e:cd:64:c0:e3:2a:73:a3:55:94"
       - run:
-          command: echo "rc deploy"
-
-  prod_deploy:
-    docker:
-      - image: circleci/python:3.6.6
-        environment:
-          PIPENV_VENV_IN_PROJECT: true
-    steps:
-      - checkout
-      - add_ssh_keys:
-          fingerprints:
-            - "59:d3:45:4c:e5:31:4e:cd:64:c0:e3:2a:73:a3:55:94"
-      - run:
-          command: echo "prod deploy"
+          command: bash .circleci/deploy.sh
