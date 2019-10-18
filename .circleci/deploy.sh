@@ -13,8 +13,7 @@ validate_status() {
 }
 
 echo "Sending tul_cob-web-$CIRCLE_TAG configs to SolrCloud."
-RESPONSE=$(curl -i -o - --silent -X POST --header "Content-Type:application/octet-stream" --data-binary ~/project/ansible-playbook-solrcloud/data/tmp/collections/tul_cob-web.zip
-"https://$SOLR_USER:$SOLR_PASSWORD@solrcloud.tul-infra.page/solr/admin/configs?action=UPLOAD&name=tul_cob-web-$CIRCLE_TAG")
+RESPONSE=$(curl  -i -o - --silent -X POST --header "Content-Type:application/octet-stream" --data-binary ~/project/ansible-playbook-solrcloud/data/tmp/collections/tul_cob-az.zip "https://$SOLR_USER:$SOLR_PASSWORD@solrcloud.tul-infra.page/solr/admin/configs?action=UPLOAD&name=tul_cob-web-$CIRCLE_TAG")
 validate_status
 
 echo "Creating new tul_cob-web-$CIRCLE_TAG collection"
