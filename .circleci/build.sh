@@ -2,4 +2,4 @@
 set -e
 
 cd ~/project
-zip -r ~/solrconfig.zip . -x .git
+zip -r ~/solrconfig.zip . -x *.git*

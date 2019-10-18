@@ -13,7 +13,7 @@ validate_status() {
 }
 
 echo "Sending tul_cob-web-$CIRCLE_TAG configs to SolrCloud."
-RESPONSE=$(curl -u $SOLR_USER:$SOLR_PASSWORD -i -o - --silent -X POST --header "Content-Type:application/octet-stream" --data-binary ~/project/solrconfig.zip "https://solrcloud.tul-infra.page/solr/admin/configs?action=UPLOAD&name=tul_cob-web-$CIRCLE_TAG")
+RESPONSE=$(curl -u $SOLR_USER:$SOLR_PASSWORD -i -o - --silent -X POST --header "Content-Type:application/octet-stream" --data-binary @//home/circleci/solrconfig.zip "https://solrcloud.tul-infra.page/solr/admin/configs?action=UPLOAD&name=tul_cob-web-$CIRCLE_TAG")
 validate_status
 
 echo "Creating new tul_cob-web-$CIRCLE_TAG collection"
