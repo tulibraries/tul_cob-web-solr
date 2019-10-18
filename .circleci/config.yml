@@ -73,4 +73,7 @@ jobs:
           fingerprints:
             - "59:d3:45:4c:e5:31:4e:cd:64:c0:e3:2a:73:a3:55:94"
       - run:
+          name: Build configuration asset
+          command: bash .circleci/build.sh
+      - run:
           command: bash .circleci/deploy.sh
