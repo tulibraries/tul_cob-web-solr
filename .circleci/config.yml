@@ -7,7 +7,7 @@ workflows:
       - run_tests
   deploy:
     jobs:
-      - run_tests
+      - run_tests:
           filters:
             branches:
               ignore: /.*/
@@ -21,7 +21,7 @@ workflows:
               only: /.*(-qa|-stage|-rc)$/
   prod_deploy:
     jobs:
-      - run_tests
+      - run_tests:
           filters:
             branches:
               ignore: /.*/
