@@ -7,6 +7,7 @@ workflows:
       - run_tests
   deploy:
     jobs:
+      - run_tests
       - run_deploy:
           filters:
             branches:
@@ -15,6 +16,7 @@ workflows:
               only: /.*(-qa|-stage|-rc)$/
   prod_deploy:
     jobs:
+      -run_tests
       - request-prod-deploy:
           type: approval
           filters:
@@ -24,6 +26,7 @@ workflows:
               ignore: /.*(-qa|-stage|-rc)$/
       - run_deploy:
           requires:
+            - run_tests
             - request-prod-deploy
           filters:
             branches:
