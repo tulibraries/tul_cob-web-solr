@@ -1,0 +1,55 @@
+version: 2
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - run_tests
+  deploy:
+    jobs:
+      - run_tests:
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /.*/
+      - run_deploy:
+          requires:
+            - run_tests
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /.*/
+jobs:
+  run_tests:
+    docker:
+      - image: circleci/python:3.6.6
+    steps:
+      - checkout
+      - setup_remote_docker
+      - add_ssh_keys:
+          fingerprints:
+            - "47:44:3f:10:e0:07:49:8b:d3:58:cd:72:2d:de:88:e0"
+      - run:
+          name: Set up a local Solr with build's solr config.
+          command: bash .circleci/setup_solr.sh
+      - run:
+          name: Test that we can get to the solr collection successfully.
+          command: bash .circleci/test.sh
+  run_deploy:
+    docker:
+      - image: circleci/python:3.6.6
+        environment:
+          PIPENV_VENV_IN_PROJECT: true
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "47:44:3f:10:e0:07:49:8b:d3:58:cd:72:2d:de:88:e0"
+      - run:
+          name: Build configuration asset
+          command: bash .circleci/build.sh
+      - run:
+          name: Deploy configuration asset to SolrCloud
+          command: bash .circleci/deploy.sh
