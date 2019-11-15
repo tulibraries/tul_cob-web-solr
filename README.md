@@ -56,7 +56,7 @@ Once the master branch has been adequately tested and reviewed, a release is cut
 2. new Collection of `tul_cob-web-{release-tag}-init` is created in [Production SolrCloud](https://solrcloud.tul-infra.page) w/the requisite ConfigSet (this Collection is largely ignored);
 3. a new QA alias of `tul_cob-web-{release-tag}-qa` is created in [Production SolrCloud](https://solrcloud.tul-infra.page), pointing to the init Collection;
 3. a new Stage alias of `tul_cob-web-{release-tag}-stage` is created in [Production SolrCloud](https://solrcloud.tul-infra.page), pointing to the init Collection;
-3. a new Stage alias of `tul_cob-web-{release-tag}-prod` is created in [Production SolrCloud](https://solrcloud.tul-infra.page), pointing to the init Collection;
+3. a new Production alias of `tul_cob-web-{release-tag}-prod` is created in [Production SolrCloud](https://solrcloud.tul-infra.page), pointing to the init Collection;
 4. and, manually, a full reindex DAG is kicked off from Airflow Production to this new tul_cob-web alias. Upon completion of the reindex, relevant clients are redeployed pointing at their new alias, and *then QA & UAT review occur*.
 
 See the process outlined here: https://github.com/tulibraries/grittyOps/blob/master/services/solrcloud.md
