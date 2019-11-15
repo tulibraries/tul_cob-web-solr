@@ -10,7 +10,7 @@ These are the Solr configuration files for the TUL Cob (LibrarySearch) web conte
 
 ## Local Testing / Development
 
-You need a local SolrCloud cluster running to load these into. For example, use the make commands + docker-compose file in https://github.com/tulibraries/ansible-playbook-solrcloud to start a cluster. That repository's makefile includes this set of configurations and collection (funcake) in its `make create-release-collections` and `make create-aliases` commands.
+You need a local SolrCloud cluster running to load these into. For example, use the make commands + docker-compose file in https://github.com/tulibraries/ansible-playbook-solrcloud to start a cluster. That repository's makefile includes this set of configurations and collection (tul_cob-web) in its `make create-release-collections` and `make create-aliases` commands.
 
 If you want to go through those steps yourself, once you have a working SolrCloud cluster:
 
@@ -18,7 +18,7 @@ If you want to go through those steps yourself, once you have a working SolrClou
 
 ```
 $ git clone https://github.com/tulibraries/tul_cob-web-solr.git
-$ cd funcake-solr
+$ cd tul_cob-web-solr
 ```
 
 2. zip the contents of this repository *without* the top-level directory
