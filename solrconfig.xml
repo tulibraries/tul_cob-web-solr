@@ -28,7 +28,7 @@
        that you fully re-index after changing this setting as it can
        affect both how text is indexed and queried.
   -->
-  <luceneMatchVersion>5.0.0</luceneMatchVersion>
+  <luceneMatchVersion>7.0.0</luceneMatchVersion>
 
   <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lib" />
   <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs" />
@@ -103,6 +103,8 @@
        -->
 
        <str name="qf">
+       <!-- TODO: remove comment once this is no longer true -->
+       <!-- Note, only the text field below is indexed -->
          web_title_display^3
          web_specialties_display^2
          web_full_description_t^2
@@ -197,6 +199,74 @@
          <str>nameOfCustomComponent2</str>
        </arr>
       -->
+    <arr name="last-components">
+      <str>spellcheck</str>
+    </arr>
+
+  </requestHandler>
+
+  <requestHandler name="title_search" class="solr.SearchHandler" default="true">
+    <!-- default values for query parameters can be specified, these
+         will be overridden by parameters in the request
+      -->
+     <lst name="defaults">
+       <str name="defType">edismax</str>
+       <str name="echoParams">explicit</str>
+       <str name="wt">json</str>
+       <int name="rows">10</int>
+
+       <str name="q.alt">*:*</str>
+       <str name="mm">2&lt;-1 5&lt;-2 6&lt;90%</str>
+
+       <!-- this qf and pf are used by default, if not otherwise specified by
+            client. The default blacklight_config will use these for the
+            "keywords" search. See the author_qf/author_pf, title_qf, etc
+            below, which the default blacklight_config will specify for
+            those searches. You may also be interested in:
+            http://wiki.apache.org/solr/LocalParams
+       -->
+
+       <str name="qf">
+         <!-- TODO: remove comment once this is no longer true -->
+         <!-- title_sort is the only title field we are currenlty indexing. -->
+         title_sort^100.0
+         text
+       </str>
+       <str name="pf">
+         title_sort^100.0
+         text
+       </str>
+
+       <int name="ps">3</int>
+       <float name="tie">0.01</float>
+
+       <str name="fl">
+         id,
+         web_content_type_facet,
+         web_content_type_t,
+         web_title_display,
+         web_phone_number_display,
+         web_photo_display,
+         web_subject_display,
+         web_base_url_display,
+         web_description_display,
+         web_full_description_t,
+         web_url_display,
+         web_job_title_display,
+         web_email_address_display,
+         web_specialties_display,
+         web_blurb_display,
+         web_tags_display,
+         web_link_display
+       </str>
+
+       <str name="facet">true</str>
+       <str name="facet.mincount">1</str>
+       <str name="facet.field">web_content_type_facet</str>
+
+       <str name="spellcheck">false</str>
+
+     </lst>
     <arr name="last-components">
       <str>spellcheck</str>
     </arr>
@@ -302,8 +372,8 @@
   <searchComponent name="suggest" class="solr.SuggestComponent">
     <lst name="suggester">
       <str name="name">mySuggester</str>
-      <str name="lookupImpl">FreeTextLookupFactory</str>
-      <str name="suggestFreeTextAnalyzerFieldType">textSuggest</str>
+      <str name="lookupImpl">FuzzyLookupFactory</str>
+      <str name="suggestAnalyzerFieldType">textSuggest</str>
       <str name="buildOnCommit">true</str>
       <str name="field">suggest</str>
     </lst>
