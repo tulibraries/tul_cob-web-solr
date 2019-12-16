@@ -468,37 +468,13 @@
    <field name="id" type="string" indexed="true" stored="true" required="true" />
    <field name="_version_" type="long" indexed="true" stored="true" multiValued="false" />
    <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
+
    <!-- default, catch all search field -->
    <field name="text" type="text" indexed="true" stored="false" multiValued="true"/>
+
    <!-- these display fields are NOT multi-valued -->
-
-   <field name="marc_display_raw" type="string" indexed="false" stored="true" multiValued="false"/>
-
-   <field name="library_facet" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="availability_facet" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="language_facet" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="subject_topic_facet" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="subject_era_facet" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="subject_geo_facet" type="string" indexed="true" stored="true" multiValued="true" />
-   <!-- pub_date is used for facet and display so it must be indexed and stored -->
-   <field name="pub_date" type="string" indexed="true" stored="true" multiValued="true"/>
-   <!-- pub_date sort uses new trie-based int fields, which are recommended for any int and are displayable, sortable, and range-quer
-   we use 'tint' for faster range-queries. -->
-   <field name="pub_date_sort" type="tint" indexed="true" stored="true" multiValued="false"/>
-
-   <!-- format is used for facet, display, and choosing which partial to use for the show view, so it must be stored and indexed -->
-   <field name="format" type="string" indexed="true" stored="true" multiValued="true"/>
-   <!--field name="library_facet" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="subject" type="string" indexed="true" stored="true" multiValued="true"/ -->
-
    <field name="record_creation_date" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="record_update_date" type="string" indexed="true" stored="true" multiValued="false"/>
-
-   <field name="bound_with_ids" type="string" indexed="true" stored="true" multiValued="true"/>
-
-   <field name="work_access_point" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="purchase_order" type="boolean" indexed="false" stored="true" multiValued="false" default="false" />
-
 
    <!-- Dynamic field definitions.  If a field name is not found, dynamicFields
         will be used if the name matches any of the patterns.
@@ -509,7 +485,6 @@
         both match, the first appearing in the schema will be used.  -->
 
    <dynamicField name="*_display" type="string" indexed="false" stored="true" multiValued="true" />
-
    <dynamicField name="*_i"  type="int"    indexed="true"  stored="true"/>
    <dynamicField name="*_s"  type="string"  indexed="true"  stored="true"/>
    <dynamicField name="*_ms"  type="string"  indexed="true"  stored="true" multiValued="true"/>
@@ -537,7 +512,6 @@
    <dynamicField name="attr_*" type="text_general" indexed="true" stored="true" multiValued="true"/>
 
    <dynamicField name="random_*" type="random" />
-
 
    <dynamicField name="*_facet" type="string" indexed="true" stored="false" multiValued="true" />
    <dynamicField name="*_sort" type="alphaOnlySort" indexed="true" stored="false" multiValued="false" />
@@ -568,21 +542,6 @@
 
    <!-- unstemmed fields -->
    <copyField source="title_t" dest="title_unstem_search"/>
-   <copyField source="subtitle_t" dest="subtitle_unstem_search"/>
-   <copyField source="title_statement_t" dest="title_statement_unstem_search"/>
-   <copyField source="title_uniform_t" dest="title_uniform_unstem_search"/>
-   <copyField source="title_addl_t" dest="title_addl_unstem_search"/>
-   <copyField source="title_added_entry_t" dest="title_added_entry_unstem_search"/>
-   <copyField source="title_series_t" dest="title_series_unstem_search"/>
-   <copyField source="creator_t" dest="creator_unstem_search"/>
-   <copyField source="subject_display" dest="subject_unstem_search"/>
-   <!-- <copyField source="author_addl_t" dest="author_addl_unstem_search"/> -->
-   <copyField source="subject_t" dest="subject_unstem_search"/>
-   <copyField source="subject_addl_t" dest="subject_addl_unstem_search"/>
-   <copyField source="subject_topic_facet" dest="subject_topic_unstem_search"/>
-   <copyField source="note_toc_display" dest="note_toc_unstem_search"/>
-   <copyField source="note_summary_display" dest="note_summary_unstem_search"/>
-
 
    <!-- sort fields  NOTE: no longer feasible with multiple dates -->
   <!--  <copyField source="pub_date" dest="pub_date_sort"/>  -->
@@ -596,55 +555,10 @@
    <copyField source="*_facet" dest="spell"/>
    <!-- title spell check;  should match fields for title request handler -->
    <copyField source="title_t" dest="title_spell"/>
-   <copyField source="subtitle_t" dest="title_spell"/>
-   <copyField source="title_uniform_t" dest="title_spell"/>
-   <copyField source="title_addl_t" dest="title_spell"/>
-   <copyField source="title_added_entry_t" dest="title_spell"/>
-   <copyField source="title_series_t" dest="title_spell"/>
-   <!-- author spell check; should match fields for author request handler -->
-   <copyField source="creator_t" dest="author_spell"/>
-   <!-- subject spell check; should match fields for subject request handler -->
-   <copyField source="subject_topic_facet" dest="subject_spell"/>
-   <copyField source="subject_t" dest="subject_spell"/>
-   <copyField source="subject_addl_t" dest="subject_spell"/>
 
-   <!-- search fields for advanced search form-->
-   <copyField source="title_display" dest="title_t"/>
-   <copyField source="title_uniform_display" dest="title_uniform_t"/>
-   <copyField source="title_addl_display" dest="title_addl_t"/>
-   <copyField source="isbn_display" dest="isbn_t"/>
-   <copyField source="issn_display" dest="issn_t"/>
-   <copyField source="call_number_display" dest="call_number_t"/>
-   <copyField source="call_number_alt_display" dest="call_number_t"/>
-   <copyField source="alma_mms_display" dest="alma_mms_t"/>
-   <copyField source="title_series_display" dest="title_series_t"/>
-   <copyField source="note_display" dest="note_t"/>
-   <copyField source="note_with_display" dest="note_with_t"/>
-   <copyField source="note_diss_display" dest="note_diss_t"/>
-   <copyField source="note_biblio_display" dest="note_biblio_t"/>
-   <copyField source="note_toc_display" dest="note_toc_t"/>
-   <copyField source="note_restrictions_display" dest="note_restrictions_t"/>
-   <copyField source="note_references_display" dest="note_references_t"/>
-   <copyField source="note_summary_display" dest="note_summary_t"/>
-   <copyField source="note_cite_display" dest="note_cite_t"/>
-   <copyField source="note_finding_aid_display" dest="note_finding_aid_t"/>
-   <copyField source="note_custodial_display" dest="note_custodial_t"/>
-   <copyField source="note_binding_display" dest="note_binding_t"/>
-   <copyField source="note_related_display" dest="note_related_t"/>
-   <copyField source="note_accruals_display" dest="note_accruals_t"/>
-   <copyField source="note_local_display" dest="note_local_t"/>
 
    <!-- OpenSearch query field should match request handler search fields -->
    <copyField source="title_t" dest="opensearch_display"/>
-   <copyField source="subtitle_t" dest="opensearch_display"/>
-   <copyField source="addl_titles_t" dest="opensearch_display"/>
-   <copyField source="title_added_entry_t" dest="opensearch_display"/>
-   <copyField source="title_series_t" dest="opensearch_display"/>
-   <copyField source="creator_t" dest="opensearch_display"/>
-   <!-- <copyField source="author_addl_t" dest="opensearch_display"/> -->
-   <copyField source="subject_topic_facet" dest="opensearch_display"/>
-   <copyField source="subject_t" dest="opensearch_display"/>
-   <copyField source="subject_addl_t" dest="opensearch_display"/>
 
   <!-- for suggestions
        Suggestions are not used, and are breaking on immense fields
@@ -675,6 +589,5 @@
    <str name="paramkey">param value</str>
  </similarity>
  -->
-
 
 </schema>
