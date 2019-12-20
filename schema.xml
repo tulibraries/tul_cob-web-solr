@@ -541,7 +541,11 @@
    <!-- Copy Fields -->
 
    <!-- unstemmed fields -->
+   <copyField source="web_title_display" dest="title_t"/>
+   <copyField source="web_specialties_display" dest="specialties_t"/>
    <copyField source="title_t" dest="title_unstem_search"/>
+   <copyField source="specialties_t" dest="specialties_unstem_search"/>
+   <copyField source="web_full_description_t" dest="full_description_unstem_search"/>
 
    <!-- sort fields  NOTE: no longer feasible with multiple dates -->
   <!--  <copyField source="pub_date" dest="pub_date_sort"/>  -->
