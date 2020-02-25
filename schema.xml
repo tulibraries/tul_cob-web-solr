@@ -412,6 +412,18 @@
       </analyzer>
     </fieldType>
 
+    <fieldType name="PhoneticNames" class="solr.TextField"  positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory" />
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory" />
+        <filter class="solr.SynonymFilterFactory" synonyms="english_names.txt" ignoreCase="true" expand="true"/>
+      </analyzer>
+    </fieldType>
+
     <!-- since fields of this type are by default not stored or indexed,
          any data added to them will be ignored outright.  -->
     <fieldtype name="ignored" stored="false" indexed="false" multiValued="true" class="solr.StrField" />
@@ -468,7 +480,7 @@
    <field name="id" type="string" indexed="true" stored="true" required="true" />
    <field name="_version_" type="long" indexed="true" stored="true" multiValued="false" />
    <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
-
+   <field name="PhoneticNames" type="PhoneticNames" indexed="true" stored="true" multiValued="true"/>
    <!-- default, catch all search field -->
    <field name="text" type="text" indexed="true" stored="false" multiValued="true"/>
 
@@ -484,7 +496,8 @@
         Longer patterns will be matched first.  if equal size patterns
         both match, the first appearing in the schema will be used.  -->
 
-   <dynamicField name="*_display" type="string" indexed="false" stored="true" multiValued="true" />
+   <dynamicField name="*_display" type="string" indexed="true" stored="true" multiValued="true" />
+   <dynamicField name="*_url_display" type="string" indexed="false" stored="true" multiValued="true" />
    <dynamicField name="*_i"  type="int"    indexed="true"  stored="true"/>
    <dynamicField name="*_s"  type="string"  indexed="true"  stored="true"/>
    <dynamicField name="*_ms"  type="string"  indexed="true"  stored="true" multiValued="true"/>
@@ -542,13 +555,13 @@
 
    <!-- unstemmed fields -->
    <copyField source="web_title_display" dest="title_t"/>
+   <copyField source="web_title_display" dest="PhoneticNames"/>
    <copyField source="web_specialties_display" dest="specialties_t"/>
    <copyField source="title_t" dest="title_unstem_search"/>
    <copyField source="specialties_t" dest="specialties_unstem_search"/>
    <copyField source="web_full_description_t" dest="full_description_unstem_search"/>
-
    <!-- sort fields  NOTE: no longer feasible with multiple dates -->
-  <!--  <copyField source="pub_date" dest="pub_date_sort"/>  -->
+   <!--  <copyField source="pub_date" dest="pub_date_sort"/>  -->
 
    <copyField source="*_display" dest="text" />
 
