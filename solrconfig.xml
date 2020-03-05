@@ -107,6 +107,7 @@
        <!-- Note, only the text field below is indexed -->
          title_unstem_search^1000.0
          title_t^500.0
+         PhoneticNames^500.0
          specialties_unstem_search^250.0
          specialties_t^100.0
          full_description_unstem_search^50.0
@@ -116,6 +117,7 @@
        <str name="pf">
          title_unstem_search^10000.0
          title_t^5000.0
+         PhoneticNames^500.0
          specialties_unstem_search^2500.0
          specialties_t^1000.0
          full_description_unstem_search^500.0
@@ -126,11 +128,13 @@
        <str name="title_qf">
          title_unstem_search^1000.0
          title_t^500.0
+         PhoneticNames^500.0
        </str>
 
        <str name="title_pf">
          title_unstem_search^10000.0
          title_t^5000.0
+         PhoneticNames^500.0
        </str>
 
        <int name="ps">3</int>
@@ -138,6 +142,7 @@
 
        <str name="fl">
          id,
+         PhoneticNames,
          web_content_type_facet,
          web_content_type_t,
          web_title_display,
@@ -258,6 +263,7 @@
 
        <str name="fl">
          id,
+         PhoneticNames,
          web_content_type_facet,
          web_content_type_t,
          web_title_display,
