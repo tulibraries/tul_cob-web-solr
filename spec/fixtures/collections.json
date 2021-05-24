@@ -1,0 +1,253 @@
+{
+  "data": [
+    {
+      "id": "4",
+      "type": "collection",
+      "attributes": {
+        "label": "Philadelphia Dance Collection",
+        "updated_at": "2021-03-26T14:06:55.951-04:00",
+        "description": "<p>Established in 2001, the Philadelphia Dance Collection documents dance heritage in the Philadelphia region through dance company business records, performance programs and posters, photographs, moving images, sound recordings, and related ephemera. Preservation and access to these materials is essential to the legacies of Philadelphia’s premiere dance companies, performance artists, choreographers and dance educators and their contributions to the movement phenomenon.</p>\r\n<p>Prominent collections include the Pennsylvania Ballet Records, the Philadelphia Dance Company (Philadanco) Records, the South Street Dance Company Records, and the Zero Moving Dance Company Records. </p>",
+        "name": "Philadelphia Dance Collection",
+        "subject": [
+          "Arts and Entertainment",
+          "Culture"
+        ],
+        "contents": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/collections/philadelphia-dance-collection"
+      }
+    },
+    {
+      "id": "1",
+      "type": "collection",
+      "attributes": {
+        "label": "Contemporary Culture Collections",
+        "updated_at": "2021-03-26T14:06:55.921-04:00",
+        "description": "<p>Established in 1969, the Contemporary Culture Collection (CCC) is a source of primary research materials documenting North America social, political, economic and cultural history as it pertains to minority groups, the counterculture, and the fringe dating from the 1960s to the present.  The CCC includes small press journals, newsletters, and newspapers, books, and pamphlets as well as microfilm, sound recordings, posters, broadsides, and related ephemera.</p>\r\n<p>One of the strengths of this collection lies in the organizational records of underground or alternative press publications that provide alternate source of information and perspectives on contemporary issues. These include the Liberation News Service (LNS), an alternative news agency active in the 1960s and 1970s that documented Third World politics and the American social and political protest movements of the time period; the Committee of Small Magazine Editors and Publishers, a small press clearinghouse; G.I. Papers, underground antiwar newspapers produced by and for enlisted members of the U.S. Armed Forces; and Seven Days and the Socialist Review, both of which published social and political focused periodicals with commentaries on issues ranging from civil rights and abortion to migrant labor, gay rights and nuclear disarmament.</p>",
+        "name": "Contemporary Culture Collections",
+        "subject": [
+          "Culture"
+        ],
+        "contents": "<p><span style=\"color: #494949; font-family: Verdana, sans-serif; font-size: 12px; background-color: #fefefe;\">A selection of photographs from the Philadelphia Jewish Archives Collection has been digitized, and is available to&nbsp;</span><a style=\"box-sizing: border-box; color: #6c420e; text-decoration-line: none; font-family: Verdana, sans-serif; font-size: 12px; background-color: #fefefe;\" href=\"http://digital.library.temple.edu/cdm/landingpage/collection/p15037coll15\">view online</a><span style=\"color: #494949; font-family: Verdana, sans-serif; font-size: 12px; background-color: #fefefe;\">.</span></p>"
+      },
+      "links": {
+        "self": "https://library.temple.edu/collections/contemporary-culture-collections"
+      }
+    },
+    {
+      "id": "3",
+      "type": "collection",
+      "attributes": {
+        "label": "Paskow Science Fiction Collection (Science Fiction and Fantasy)",
+        "updated_at": "2021-03-26T14:06:55.937-04:00",
+        "description": "<p>The Science Fiction Collection was established in 1972 when Temple University Libraries acquired 5,000 science fiction paperbacks from the personal library of the late David C. Paskow, a Temple alumnus. A subsequent donation in 1986 by Roger Knuth served to expand the collection not only in size but also in focus to include the fantasy genre. This extensive science fiction volume collection documents the evolution of science fiction and fantasy writing from the late 19th through the 20th century.</p>\r\n<p>The collection also includes pulp and slick magazines, posters, paintings, drawing, and related ephemera. Science fiction and fantasy fan culture and criticism often referred to as science fiction fandom are documented in serials known as fanzines. Notable fanzine collections include the Women Writers Fan Fiction Collection, circa 1979-1996, which includes fanzines, underground, and circuit literature written, designed, produced and distributed by female fans of science fiction media teleplays, actors, and characters. </p>\r\n<p>The collection also includes the personal papers of science fiction and fantasy authors Ben Bova, Gardner Dozois, Lloyd Eshbach, Tom Purdom, John Varley, Stanley G. Weinbaum, Felix Gotschalk, Leo Zagat, and manuscripts and files of John Taine (Eric Temple Bell), E. E. Smith, and A. Langley Searles.</p>\r\n<p>The Rare Books and Manuscripts Collection holds related 17th and 18th century imaginary voyages and the Gelfand H. G. Wells Collection. </p>",
+        "name": "Paskow Science Fiction Collection (Science Fiction and Fantasy)",
+        "subject": [
+          "Arts and Entertainment",
+          "Culture"
+        ],
+        "contents": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/collections/paskow-science-fiction-collection-science-fiction-and-fantasy"
+      }
+    },
+    {
+      "id": "6",
+      "type": "collection",
+      "attributes": {
+        "label": "Printing, Publishing, and Bookselling Collections",
+        "updated_at": "2021-03-26T14:06:55.965-04:00",
+        "description": "<p>The Printing, Publishing and Bookselling Collections are comprised of a variety of materials including graphics, artifacts, proofs, printing examples, and booksellers’ catalogs.  It is a repository of one of the regional union collections - PEW/PACSCL Program. The early history of lithography is represented in depth by examples of European books and reproductive facsimiles in early 19th century lithography. The halftone print collections of William T. Innes, Frederic Eugene Ives, and Lewis and Max Levy record early photographic history in Philadelphia. The Printing Collection also consists of type-specimen books, binding dies, printing and book binding manuals, printing-image carriers. The manufacturing and trade of books are documented in the organization records of Philadelphia companies including Leary &amp; Co., (Leary’s Bookstore), the William J. Campbell Bookstore, the Beck Engraving Co. and nationally/internationally, by Thomas Nelson &amp; Sons, Director's Files of Constable &amp; Co., London (Michael Sadleir and Otto Kyllmann), and Thomas Nelson &amp; Sons (U.S. Office, Masnel).</p>",
+        "name": "Printing, Publishing, and Bookselling Collections",
+        "subject": [
+          "Transportation"
+        ],
+        "contents": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/collections/printing-publishing-and-bookselling-collections"
+      }
+    },
+    {
+      "id": "7",
+      "type": "collection",
+      "attributes": {
+        "label": "Rare Books",
+        "updated_at": "2021-03-26T14:06:55.978-04:00",
+        "description": "<p>Founded in 1967, the Rare Book Collection includes early, rare, and first edition monographs dating from the 15th century.  Among these are literary classics such as Walt Whitman’s Leaves of Grass; important biblical and religious works such as a leaf of the Gutenberg Bible (1455-56); extensive examples of herbals from the 15th-19th centuries, and books on landscape gardening and animal husbandry; and works that document the history of printing, book design, literature, and language.</p>\r\n<p>The Rare Book Collection also houses hundreds of artist books. These unique pieces of artwork showcase the aesthetic of bookmaking through its craft and form.  A growing collection of zines extends the collection into documentation of 21st century communications.</p>",
+        "name": "Rare Books",
+        "subject": [],
+        "contents": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/collections/rare-books"
+      }
+    },
+    {
+      "id": "8",
+      "type": "collection",
+      "attributes": {
+        "label": "Conwellana-Templana Collection: University Archives",
+        "updated_at": "2021-03-26T14:06:55.994-04:00",
+        "description": "<p>Established in 1946 as a memorial to Temple University founder Dr. Russell H. Conwell, the Conwellana-Templana Collection initially consisted of the published books and sermons, manuscripts, correspondence and memorabilia of Dr. Conwell.  Since 1965, the collection scope has broadened to function as a university archives and includes minutes of the Board of Trustees; official records, personal papers and publications of Temple University Presidents, administrators, faculty, and alumni; records of University committees; annual reports; course catalogs; <a href=\"https://digital.library.temple.edu/digital/collection/p245801coll12\">yearbooks</a>; student publications and campus newspapers; and Temple University Press publications.  Extensive <a href=\"https://digital.library.temple.edu/digital/collection/p245801coll0\">photographic holdings</a> of University personnel, buildings and campus events provide visual documentation of Temple’s history.</p>\r\n<p>Publications, lectures and sermons of Dr. Russell Conwell are selectively being mounted on this website, including his notable <a href=\"../../../collections/scrc/acres\">Acres of Diamonds</a> lecture and his sermon on Hattie Wiatt, <a href=\"../../../collections/scrc/hattie\">The History of Fifty-seven Cents</a>. </p>\r\n<p>Franklin H. Littell (1917-2009), emeritus professor of religion at Temple University, was a devoted teacher and ordained Methodist minister. His <a href=\"../../../scrc/conwellana-templana-collection/franklin-littel\">papers and library</a>, document his career and strong beliefs in interfaith understanding and religious liberty.</p>",
+        "name": "Conwellana-Templana Collection: University Archives",
+        "subject": [
+          "Agriculture",
+          "Arts and Entertainment",
+          "Business And Economic Development",
+          "Culture",
+          "Education",
+          "Health",
+          "Miscellaneous",
+          "News Media",
+          "Politics and Protest",
+          "Sports and Recreation",
+          "Women"
+        ],
+        "contents": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/collections/conwellana-templana-collection-university-archives"
+      }
+    },
+    {
+      "id": "9",
+      "type": "collection",
+      "attributes": {
+        "label": "Urban Archives",
+        "updated_at": "2021-03-26T14:06:56.009-04:00",
+        "description": "<p>Established in 1967, Temple University’s Urban Archives documents the social, economic, political, and physical development of the greater Philadelphia region throughout the 19th, 20th, and 21st centuries. Resources housed in the Urban Archives, now a part of the Special Collections Research Center, document the development of an urban region through a wide variety of organization records including local businesses such as the Pennsylvania Railroad Company and nonprofits and community organizations including the Friends Neighborhood Guild and the Housing Association of Delaware Valley.  The 4 million images and 7 million news clippings from the Philadelphia Evening Bulletin provide a comprehensive view of life in the Philadelphia region. The Urban Archives also holds local TV newsreel footage from KYW and WPVI and an additional 100 photographic collections from organizations including the City Parks Association, the Philadelphia Fellowship Commission, and the Gray Panthers.  An extensive pamphlet and reports collection, city directories, Philadelphia atlases, and Sanborn fire insurance maps further round out the collection.  </p>",
+        "name": "Urban Archives",
+        "subject": [
+          "African Americans",
+          "Agriculture",
+          "Arts and Entertainment",
+          "Benevolent Societies",
+          "Business And Economic Development",
+          "Community Affairs",
+          "Congregations",
+          "Crime and the Legal System",
+          "Culture",
+          "Education",
+          "Health",
+          "Housing",
+          "Immigrant-Ethnic Communities",
+          "Labor",
+          "Miscellaneous",
+          "News Media",
+          "Planning",
+          "Politics and Protest",
+          "Rabbis",
+          "Senior Citizens",
+          "Social Services",
+          "Sports and Recreation",
+          "Transportation",
+          "Travel",
+          "Women"
+        ],
+        "contents": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/collections/urban-archives"
+      }
+    },
+    {
+      "id": "10",
+      "type": "collection",
+      "attributes": {
+        "label": "Blockson General and Special Collections",
+        "updated_at": "2021-03-26T14:06:56.024-04:00",
+        "description": "<div>\r\n<h2>General Collection</h2>\r\n<p>The Charles L. Blockson Afro-American Collection is one of the nation's leading research facilities for the study of the history and culture of African Americans. The core collection was donated to Temple University in 1983 by Charles L. Blockson, a historian, bibliophile and collector of Afro-Americana. As a major research facility, it provides materials, expository programs and service for Black Studies research scholars. The collection is used by a wide spectrum of researchers ranging from high school students to well-established scholars.<br><br>Located in <a href=\"https://www.temple.edu/isss/future-students/documents/campus_map.pdf\">Sullivan Hall</a> on the Main Campus of Temple University, this collection of over 600,000 items has materials on the global black experience in all formats: books, manuscripts, pamphlets, journals, broadsides, posters, photographs, audiotapes, videos, DVDs and rare ephemera. In addition, the collection houses selected artifacts, including statues, busts and figurines.<br><br>Most of the titles are in English and others are in languages of areas in the world with sizeable black populations, including Africa and various parts of the Caribbean and South America. Information contained in fliers, newspaper and magazine clippings, pamphlets and ephemera is available in the Blockson Clipping File. Books and other materials owned by Blockson Afro-American Collection are included in <a href=\"https://librarysearch.temple.edu/bento?q=\">Library Search</a>, Temple University Libraries' catalog. You can use <a href=\"https://librarysearch.temple.edu/catalog/advanced?q=&amp;search_field=all\">Advanced Search</a> by typing in an author, title, keyword, or subject and then select Blockson Collection as the Library before clicking the search button. <a href=\"http://digital.library.temple.edu/\">Temple University Libraries Digital Collections</a> offer access to the primary historical and cultural resources of Temple Univeristy Libraries, inlcuding the Charles L. Blockson Afro-American Collection.</p>\r\n<p>A permanent rotating exhibit which changes themes periodically is on display upon entering the Collection. The exhibit is displayed in the foyer of the <a href=\"../../../spaces/14\">reading room</a>. Other exhibit items are located within the reading room, along the wall.</p>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<h2>Special Collections</h2>\r\n<p>Rare books, prints, photographs, slave narratives, manuscripts, letters, sheet music, foreign language publications and ephemera comprise the impressive special collections component of the Blockson Collection. The Collection's rare books section is particularly strong in its first editions, as well as its holdings in African, African-American and African-Caribbean publications dating back to the sixteenth century.<br><br>Among the rare works in the Collection are Leo Africanus' Ioannis Leonis Africani Africae descriptio IX lib. absoluta (1632); Phillis Wheatley's Poems on various subjects, religious and moral (1773); Olaudah Equiano's The life of Olaudah Equiano (1789); Robert Benjamin Lewis' Light and truth (1844); William Wells Brown's Clotel (1853); The Confessions of Nat Turner (1831) and David Walker's Appeal (1829). In addition, the Collection boasts first editions of works by Jacobus Elisa Joannes Capitein, Frederick Douglass, W.E.B. Dubois, Frances Ellen Watkins Harper, Paul Lawrence Dunbar, George Washington Williams, Carter G. Woodson and others. There is also an extensive African Bibles collection.<br><br>The primary source materials of the manuscripts component of the Collection include sheet music, the principal papers of Samuel Holmes, Dr. R.R. Wright, Natalie Hinderas and Dr. Ruth Wright Hayre, as well as personal papers of William Still.<br><br>The Paul Robeson Collection contains sheet music, photographs, posters and ephemera. The Rhythm Brown Collection includes photographs, business records, and correspondence.<br><br>The Philadelphia (Alpha) Chapter Boule Society Papers of Sigma Pi Phi Fraternity, the first African-American fraternity, includes programs, social registers and private correspondence.<br><br>Among the works of enslaved Africans in the Slave Narratives Collection are narratives by Olaudah Equiano, Ignatius Sancho, Prince Lee Boo, Sojourner Truth, Frederick Douglass and Nancy Prince.<br><br>The Prints and Photographs Collection includes prints and Black film posters, as well as photographs and prints of African-American Civil rights leaders, religious leaders, artists, entertainers and scholars.<br><br>Images of African-American associations and organizations are also included. This section also houses the John Mosley Photograph Collection which contains over 500,000 photographs, prints and negatives which provide a visual history of notable black entertainers, Negro Baseball League players, Penn Relays, social and political personalities and the general social life of Pennsylvania.<br><br>The Raymond Trent Oral History Collection contains thousands of taped interviews and radio programs on African and African-American history and culture.</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div>\r\n<div> </div>\r\n</div>\r\n</div>",
+        "name": "Blockson General and Special Collections",
+        "subject": [
+          "African Americans",
+          "Culture"
+        ],
+        "contents": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/collections/blockson_collection"
+      }
+    },
+    {
+      "id": "17",
+      "type": "collection",
+      "attributes": {
+        "label": "Charles Library Browsing Collection",
+        "updated_at": "2021-03-26T14:06:56.040-04:00",
+        "description": "<p dir=\"ltr\">The browsing collection, located on the 4th floor of the Charles library, contains approximately 180,000 titles.  </p>\r\n<p dir=\"ltr\">This collection contains recently acquired materials, highly circulating items, and materials best browsed visually.</p>",
+        "name": "Charles Library Browsing Collection",
+        "subject": [],
+        "contents": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/collections/charles-library-browsing-collection"
+      }
+    },
+    {
+      "id": "18",
+      "type": "collection",
+      "attributes": {
+        "label": "Manuscripts and Archives Collection",
+        "updated_at": "2021-03-26T14:06:56.056-04:00",
+        "description": "<p>The Manuscripts and Archives Collections consist of personal and family papers, and organization records that document a variety of topics, persons, and institutions. These include:</p>\r\n<p>George F. Tyler War Poster Collection: digitized posters accessible in digital collections</p>\r\n<p>Gertrude Traubel Papers: music teacher and writer, daughter of Walt Whitman biographer</p>\r\n<p>Charles Morice Papers: nineteenth century French art and literary critic, poet, playwright</p>\r\n<p>Cochran History of Business Collection: documents the evolution of commerce in Europe and the New World between the 4th and 20th centuries</p>\r\n<div>\r\n<p>The <a href=\"http://digital.library.temple.edu/cdm/landingpage/collection/p15037coll18\">Frances Hirtzel Collection of Richard Owen Correspondence </a>includes the digitized correspondence of Owen (1804–1892), a prominent nineteenth century British anatomist and zoologist</p>\r\n</div>",
+        "name": "Manuscripts and Archives Collection",
+        "subject": [
+          "Arts and Entertainment",
+          "Business And Economic Development",
+          "Community Affairs",
+          "Culture",
+          "Education",
+          "Immigrant-Ethnic Communities",
+          "Miscellaneous",
+          "News Media",
+          "Planning",
+          "Politics and Protest"
+        ],
+        "contents": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/collections/manuscripts-and-archives-collection"
+      }
+    },
+    {
+      "id": "19",
+      "type": "collection",
+      "attributes": {
+        "label": "Philadelphia Jewish Archives Collection",
+        "updated_at": "2021-03-26T14:06:56.072-04:00",
+        "description": "<p>Founded in 1972, The Philadelphia Jewish Archives Center (PJAC) began as a joint project between the Philadelphia Chapter of the American Jewish Committee and the Jewish Federation of Greater Philadelphia. In 2009, its collections became part of Temple University Libraries’ Special Collections Research Center. The Philadelphia Jewish Archives Collection collects and preserves the historical records of the Jewish Community from the greater Philadelphia region. PJAC includes the personal papers of community leaders and the records of cultural, educational, religious and fraternal organizations and is the most extensive and varied documentation of any Jewish community outside New York City.  The records of the Jewish Publication Society complement the SCRC’s publishing history holdings.</p>",
+        "name": "Philadelphia Jewish Archives Collection",
+        "subject": [
+          "Agriculture",
+          "Arts and Entertainment",
+          "Benevolent Societies",
+          "Business And Economic Development",
+          "Community Affairs",
+          "Congregations",
+          "Crime and the Legal System",
+          "Culture",
+          "Education",
+          "Health",
+          "Housing",
+          "Immigrant-Ethnic Communities",
+          "Labor",
+          "News Media",
+          "Politics and Protest",
+          "Rabbis",
+          "Senior Citizens",
+          "Social Services",
+          "Sports and Recreation",
+          "Travel",
+          "Women"
+        ],
+        "contents": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/collections/philadelphia-jewish-archives-collection"
+      }
+    }
+  ]
+}
