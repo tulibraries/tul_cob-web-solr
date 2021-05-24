@@ -1,0 +1,599 @@
+{
+  "data": [
+    {
+      "id": "24",
+      "type": "space",
+      "attributes": {
+        "label": "Ginsburg Special Use Rooms",
+        "updated_at": "2021-03-26T14:09:40.110-04:00",
+        "description": "<p>Rooms are available on a first come, first serve basis. <strong>1 hour use</strong>. Keys are checked out at the circulation service desk. A Temple University Health Sciences ID is required.</p>\r\n<h2>Meditation Room (041A)</h2>\r\n<ul>\r\n<li>May be used by individuals or groups.</li>\r\n<li>Not for studying or sleeping.</li>\r\n<li>Food and Beverages are not permitted.</li>\r\n<li>Burning of any material, such as incense or candles, is not premitted due to safety concerns.</li>\r\n<li>Silence electronic devices. Earbuds are recommended if audio is used.</li>\r\n<li>Be respectful of others, keep the room clean and do not leave any personal belongings.</li>\r\n</ul>\r\n<h2>Lactation Room (064)</h2>\r\n<ul>\r\n<li>Our lactation room provides a secure environment free from intrusion and shielded from public view. Nursing mothers will need to provide their own breast pumps.</li>\r\n</ul>",
+        "name": "Ginsburg Special Use Rooms",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2157072665",
+        "email": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/ginsburg-special-use-rooms"
+      }
+    },
+    {
+      "id": "27",
+      "type": "space",
+      "attributes": {
+        "label": "4th Floor Quiet Reading Room",
+        "updated_at": "2021-03-26T14:09:40.168-04:00",
+        "description": "<p>In search of a quiet place to study in Charles Library? Visit the Fourth Floor Quiet Reading Room, the dedicated and enclosed quiet zone that allows you to spread out and dig into projects requiring dedicated concentration. While you study, enjoy the view of the Bell Tower at the center of Main Campus.</p>\r\n<p>If you are interested in reserving this room for a special event, please visit <a href=\"../../../forms/event-space-request\">https://library.temple.edu/forms/event-space-request</a> and submit your request.</p>",
+        "name": "4th Floor Quiet Reading Room",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152040292",
+        "email": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/4th-floor-quiet-reading-room"
+      }
+    },
+    {
+      "id": "30",
+      "type": "space",
+      "attributes": {
+        "label": "3rd Floor Open Reading Area",
+        "updated_at": "2021-03-26T14:09:40.228-04:00",
+        "description": "<p>Bordered by private group study rooms, this open reading room also houses the library's collection of current academic journals, magazines, newspapers, and the library's Short Édition short story dispenser, featuring <a href=\"https://short-edition.com/en/contest/temple-short-story-2019/stories\">stories</a> submitted by members of the Temple University community.</p>\r\n<p>If you are interested in reserving this room for a special event, please visit <a href=\"../../../forms/event-space-request\">https://library.temple.edu/forms/event-space-request</a> and submit your request.</p>",
+        "name": "3rd Floor Open Reading Area",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152040292",
+        "email": "charlesrooms@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/3rd-floor-open-reading-area"
+      }
+    },
+    {
+      "id": "32",
+      "type": "space",
+      "attributes": {
+        "label": "Terrace",
+        "updated_at": "2021-03-26T14:09:40.261-04:00",
+        "description": "<p>If you are interested in reserving this room for a special event, please visit <a href=\"../../../forms/event-space-request\">https://library.temple.edu/forms/event-space-request</a> and submit your request.</p>",
+        "name": "Terrace",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152040292",
+        "email": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/terrace"
+      }
+    },
+    {
+      "id": "33",
+      "type": "space",
+      "attributes": {
+        "label": "1st Floor Event Space",
+        "updated_at": "2021-03-26T14:09:40.277-04:00",
+        "description": "<p>If you are interested in reserving this room for a special event, please visit <a href=\"../../../forms/event-space-request\">https://library.temple.edu/forms/event-space-request</a> and submit your request.</p>",
+        "name": "1st Floor Event Space",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152040292",
+        "email": "charlesrooms@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/1st-floor-event-space"
+      }
+    },
+    {
+      "id": "34",
+      "type": "space",
+      "attributes": {
+        "label": "VR/Visualization Studio",
+        "updated_at": "2021-03-26T14:09:40.300-04:00",
+        "description": "<p><span style=\"color: #212529;font-family: Faustina;font-size: 16px;\">NOTE: ALL VISITS ARE CURRENTLY FOR EDUCATIONAL PURPOSES AND BY <a href=\"https://charlesstudy.temple.edu/space/58768\">APPOINTMENT</a> ONLY.</span></p>\r\n<p>This sound dampened room is designed for up to 10 people to simultaneously participate in immersive experiences with virtual reality and augmented reality technologies. </p>\r\n<p>The studio has:</p>\r\n<ul>\r\n<li>Omni-directional Treadmill</li>\r\n<li>Leap Motion Development Kit</li>\r\n<li>Oculus Rift S</li>\r\n<li>Oculus Go</li>\r\n<li>Oculus Quest</li>\r\n<li>HTC Vive Pro</li>\r\n<li>Vive Cosmos</li>\r\n</ul>\r\n<p>The VR/Visualization Studio may be reserved for classes, workshops, and by groups using our <a href=\"https://charlesstudy.temple.edu/space/58768\">online reservation system</a>. </p>\r\n<p>Access to the VR/Visualization Studio will be available during Scholars Studio operating hours, Monday -  Friday 8:30am - 5:00pm. </p>\r\n<p>Staff will monitor the space from the service desk through a large window.</p>\r\n<p>All VR equipment must stay inside the space unless otherwise noted. </p>\r\n<h2>Checking Out Equipment</h2>\r\n<p>Patrons can check out headsets for up to four hours to be used in the Scholars Studio VR/Visualization Studio.</p>\r\n<p>Patrons using headsets for development purposes can use them in the general area, after checking them out, upon making a special request.</p>\r\n<p>Users may bring their own computers and phones, but are responsible for connecting their own hardware with the VR rigs. </p>\r\n<h2>Safety</h2>\r\n<p>No food or drinks will be allowed in the space.</p>\r\n<p>No other belongings are allowed within the VR/Visualization Studio as they are a tripping hazard. There are lockers you may use to store your belongings in the Scholars Studio. Please see the Scholars Studio Service Desk for use of these lockers while you are using the VR/Visualization Studio. </p>\r\n<p>Please be spatially aware and cautious while wearing VR/AR headsets and using the VR/Visualization Studio.  Artificial boundaries may be marked on the floor of the space. Scholars Studio staff will assist you in learning to use the space and being mindful of boundaries.</p>",
+        "name": "VR/Visualization Studio",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152043467",
+        "email": "digitalscholarship@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/immersive-lab"
+      }
+    },
+    {
+      "id": "35",
+      "type": "space",
+      "attributes": {
+        "label": "Innovation Lab",
+        "updated_at": "2021-03-26T14:09:40.316-04:00",
+        "description": "<p>NOTE: THIS SPACE IS NOT CURRENTLY BOOKABLE AND SEATING WILL BE LIMITED.</p>\r\n<p>This room contains 7 round tables with seating for 21 and has 2 wall-mounted monitors. </p>\r\n<p>The space is suitable for brainstorming about digital scholarship projects, holding workshops, and conducting tabletop gaming exercises. </p>\r\n<p>This space may be reserved for classes or workshops using our <a href=\"https://charlesstudy.temple.edu/booking/lcdss\">online reservation system</a>.</p>\r\n<p>Please note that the Innovation Lab exists within a publicly accessible space that cannot be closed off and will not be private.</p>",
+        "name": "Innovation Lab",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152043435",
+        "email": "digitalscholarship@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/innovation-lab"
+      }
+    },
+    {
+      "id": "36",
+      "type": "space",
+      "attributes": {
+        "label": "Computer Lab",
+        "updated_at": "2021-03-26T14:09:40.339-04:00",
+        "description": "<h2>Specialized Computing</h2>\r\n<p>Our computer lab is designed for one to three people to work at a station on digital scholarship and art projects.</p>\r\n<p>The workstations in this lab are designed with the computing power and software required for such use cases.</p>\r\n<p>Such scholarly and artistic work includes, but is not limited to:</p>\r\n<ul>\r\n<li>textual analysis</li>\r\n<li>data set creation and manipulation</li>\r\n<li>big data research with large datasets requiring high-level computer processing</li>\r\n<li>editing and modeling for photogrammetry</li>\r\n<li>social network analysis</li>\r\n<li>geo-spacial mapping</li>\r\n<li>virtual and augmented reality development</li>\r\n<li>CAD (Computer-aided design) for use in the Makerspace</li>\r\n<li>educational and research-based gaming</li>\r\n</ul>\r\n<p>For examples of appropriate research and projects, please see sample projects by previous scholars and artists on our <a href=\"https://sites.temple.edu/tudsc/\">blog</a>.</p>\r\n<p>Specialized software includes, but is not limited to:</p>\r\n<ul>\r\n<li>Abbyy Finereader</li>\r\n<li>Agisoft Metashape</li>\r\n<li>Anaconda</li>\r\n<li>Android Studio</li>\r\n<li>Audacity</li>\r\n<li>BattleNet</li>\r\n<li>Blender</li>\r\n<li>FreeCAD</li>\r\n<li>Fusion 360</li>\r\n<li>Gephi</li>\r\n<li>Gimp</li>\r\n<li>Google Refine</li>\r\n<li>Inkscape</li>\r\n<li>Mallet</li>\r\n<li>Maya</li>\r\n<li>Meshmixer</li>\r\n<li>Origin</li>\r\n<li>QGIS</li>\r\n<li>R</li>\r\n<li>Rstudio</li>\r\n<li>Steam</li>\r\n<li>Unity Game Engine</li>\r\n<li>Unreal Engine</li>\r\n<li>Visual Studio</li>\r\n</ul>\r\n<p>If you are in need of a specific software, please contact us at <a href=\"mailto:digitalscholarship@temple.edu\">digitalscholarship@temple.edu</a> to ensure availability.</p>\r\n<h2>Technical Support and Training</h2>\r\n<p>Technology staff have some onsite availability to provide technical support and project consultation for these workstations. </p>\r\n<p>Software and method training may be available, depending on our availability and applicable skills.</p>\r\n<p>Please contact <a href=\"mailto:%20digitalscholarship@temple.edu\">digitalscholarship@temple.edu</a> to arrange a consultation.</p>\r\n<h2>Policies for Use</h2>\r\n<p>As this computer lab is prioritized for the above use cases, if you are attempting tasks which do not require the computing power or specialized software of our computers you may be asked to move elsewhere in the library.</p>\r\n<p>If asked to move, you must comply within 15 minutes of the request.</p>\r\n<p>If you are asked to move but still require a computer, <a href=\"../../../services/55\">laptops are available for check out</a> on various floors of Charles Library.</p>\r\n<p>If you require a workstation for the above use cases, but none are available, you may ask us to verify that current users require the computing power or specialized software to conduct their work. </p>\r\n<p>If they do not, they will be asked to discontinue their use. The decision to ask a user to move based on their current task will be determined by the length of time the user has been using the workstation and the discretion of library staff.</p>",
+        "name": "Computer Lab",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152043467",
+        "email": "digitalscholarship@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/computer-lab"
+      }
+    },
+    {
+      "id": "37",
+      "type": "space",
+      "attributes": {
+        "label": "Ginsburg Presentation Practice Studio",
+        "updated_at": "2021-03-26T14:09:40.353-04:00",
+        "description": "<div>The Presentation Practice Studio provides students, faculty, and staff with a convenient method of recording themselves. Designed for simplicity and ease-of-use, it is equipped with a camera, microphone, lights, podium, and a TV screen connected to a PC pre-configured for recording. Whether practicing public speaking or experimenting with prerecorded video to augment a presentation, the Presentation Practice Studio is an easy-to-use resource built to accommodate most recording needs.</div>\r\n<div> </div>\r\n<div>To use the Presentation Practice Studio, please contact the <a href=\"mailto:hscref@temple.edu\">Ginsburg Information Desk</a> to schedule a time slot and get an orientation.</div>",
+        "name": "Ginsburg Presentation Practice Studio",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2157072665",
+        "email": "hscref@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/ginsburg-presentation-practice-studio"
+      }
+    },
+    {
+      "id": "39",
+      "type": "space",
+      "attributes": {
+        "label": "The Automated Storage & Retrieval System (BookBot)",
+        "updated_at": "2021-03-26T14:09:40.370-04:00",
+        "description": "<p>The Temple University ASRS, called the BookBot, located in the Charles Library, is a state of the art automated storage and retrieval system containing nearly 1.5 million volumes.  When a book or bound journal is requested via our online catalog, it relays a message to the BookBot requesting the desired material. The BookBot then initiates the request and the book is delivered to a processing station to be readied for patron pick up.</p>\r\n<p>Read more information about <a href=\"../../../services/12\">borrowing books</a>.</p>\r\n<p>Materials are retrieved from the BookBot during the hours listed below. Once an item is retrieved and placed on the first floor Hold Shelf, it can be picked up any time that the library is open. </p>",
+        "name": "The Automated Storage & Retrieval System (BookBot)",
+        "hours": "asrs",
+        "accessibility": "",
+        "phone_number": "2152048212",
+        "email": "asktulibrary@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/charles-in-charge"
+      }
+    },
+    {
+      "id": "29",
+      "type": "space",
+      "attributes": {
+        "label": "4th Floor Graduate and Faculty Study",
+        "updated_at": "2021-04-15T15:19:20.412-04:00",
+        "description": "<div> The Study is available during <a href=\"../../../hours\">Charles Library’s open hours</a> and provides swipe access using your Temple University ID.<br><br></div><div>The area includes multiple white boards, a printer (available early spring 2020), a copier, and 32 graduate student lockers which are <a href=\"../../../forms/graduate-locker-request\">available for request on a first-come, first-served basis</a> and will be assigned until the end of the semester.<br><br></div><div>If you are interested in reserving this room for a special event, please visit <a href=\"../../../forms/event-space-request\">https://library.temple.edu/forms/event-space-request</a> and submit your request.<br><br></div>",
+        "name": "4th Floor Graduate and Faculty Study",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152048212",
+        "email": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/4th-floor-graduate-and-faculty-study"
+      }
+    },
+    {
+      "id": "1",
+      "type": "space",
+      "attributes": {
+        "label": "One Stop Assistance Desk",
+        "updated_at": "2021-03-26T14:09:38.517-04:00",
+        "description": "<p>Visit the One Stop Assistance desk to get started at Charles.</p>\r\n<p>Stop by and we’ll be glad to help you:</p>\r\n<ul>\r\n<li>\r\n<p>Find library materials - including requesting an item from our BookBot</p>\r\n</li>\r\n<li>\r\n<p>Check out course reserves</p>\r\n</li>\r\n<li>\r\n<p> Connect with the subject librarian for your research topic </p>\r\n</li>\r\n</ul>\r\n<p>As well as: </p>\r\n<ul>\r\n<li>\r\n<p>Learn about your library account</p>\r\n</li>\r\n<li>\r\n<p>Book a study room</p>\r\n</li>\r\n<li>\r\n<p>Troubleshoot a simple technology issue</p>\r\n</li>\r\n</ul>\r\n<p> . . . Or get help locating spaces and services in the building and campus.</p>\r\n<p>We look forward to seeing you at the One Stop!</p>",
+        "name": "One Stop Assistance Desk",
+        "hours": "service_zone",
+        "accessibility": "",
+        "phone_number": "2152048212",
+        "email": "asktulibrary@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/one-stop-assistance-desk"
+      }
+    },
+    {
+      "id": "2",
+      "type": "space",
+      "attributes": {
+        "label": "Ginsburg Information Desk",
+        "updated_at": "2021-03-26T14:09:38.531-04:00",
+        "description": "<p>The Information Desk provides access to all Ginsburg Library’s resources. Study rooms, books, technology and media can be checked out at the Information Desk.  IT and reference services are available as well</p>",
+        "name": "Ginsburg Information Desk",
+        "hours": "",
+        "accessibility": "Anyone entering the Medical Education and Research Building must present ID at the main security desk before moving on to the library.  Alumni, guests and those in need of health-related information are welcome to use the Libraries, but must adhere to the visitor policy.  \r\n",
+        "phone_number": "2157072665",
+        "email": "hsccirc@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/ginsburg-information-desk"
+      }
+    },
+    {
+      "id": "4",
+      "type": "space",
+      "attributes": {
+        "label": "Ginsburg Room 246a",
+        "updated_at": "2021-03-26T14:09:38.561-04:00",
+        "description": "<p>The room is suitable for small groups/meetings. It ahs a computer with project capabilities, a project screen and internet access. There is a laptop connection for the project. It is possible to change the configuration of most of the furniture.</p>",
+        "name": "Ginsburg Room 246a",
+        "hours": "",
+        "accessibility": "Health Science Center faculty and staff should contact library staff at the Ginsburg Information Desk to schedule this room.",
+        "phone_number": "2157072665",
+        "email": "hsccirc@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/ginsburg-room-246a"
+      }
+    },
+    {
+      "id": "5",
+      "type": "space",
+      "attributes": {
+        "label": "Ginsburg Computer Lab Room 248",
+        "updated_at": "2021-03-26T14:09:38.576-04:00",
+        "description": "<p>The room is a computer classroom that seats 32. It has a computer with project capabilities, two projection screens and internet access. There is a laptop connection.</p>",
+        "name": "Ginsburg Computer Lab Room 248",
+        "hours": "",
+        "accessibility": "Health Science Center faculty and staff should contact library staff at the Ginsburg Information Desk to schedule this room.",
+        "phone_number": "2157072665",
+        "email": "hsccirc@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/ginsburg-computer-lab-room-248"
+      }
+    },
+    {
+      "id": "7",
+      "type": "space",
+      "attributes": {
+        "label": "Ginsburg Innovation Space",
+        "updated_at": "2021-03-26T14:09:38.605-04:00",
+        "description": "<p>The Library’s Innovation Space includes 3 complimentary work zones – fabrication, consultation and collaboration/presentation. It houses a selection of 3D printers and scanners<em>, </em>virtual and augmented reality systems, high-end laptops, IT enabled conversation booths, and a convertible IT service desk/teaching podium.</p>",
+        "name": "Ginsburg Innovation Space",
+        "hours": "innovation",
+        "accessibility": "The Innovation Space is located on the first level of the Ginsburg Library. It is always staffed by a trained student worker or librarian.",
+        "phone_number": "2157077437",
+        "email": "ginsin3D@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/ginsburg-innovation-space"
+      }
+    },
+    {
+      "id": "8",
+      "type": "space",
+      "attributes": {
+        "label": "Krausz Information Desk",
+        "updated_at": "2021-03-26T14:09:38.619-04:00",
+        "description": "<p>The Information Desk provides access to all Krausz Library's resources. Books and technology can be checked out at the Information Desk. Reference services are available as well.</p>",
+        "name": "Krausz Information Desk",
+        "hours": "",
+        "accessibility": "Anyone entering the building must present ID at the main security desk. For security purposes, all students, faculty, staff and visitors are required to wear their Temple University identification badge at all times while in the library and must present identification when asked by a library staff member",
+        "phone_number": "2156255205",
+        "email": "hsccirc@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/krausz-information-desk"
+      }
+    },
+    {
+      "id": "9",
+      "type": "space",
+      "attributes": {
+        "label": "Ambler Service Desk",
+        "updated_at": "2021-03-26T14:09:38.631-04:00",
+        "description": "<p>The combined service desk (reference, circulation/reserves) is located close to the entrance of the library. Here, you can get questions answered and borrow/return materials. If an instructor has put a book or DVD on reserve, it will be here.</p>",
+        "name": "Ambler Service Desk",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2674688648",
+        "email": "tulamblr@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/ambler-service-desk"
+      }
+    },
+    {
+      "id": "23",
+      "type": "space",
+      "attributes": {
+        "label": "Albert M. Greenfield SCRC Reading Room",
+        "updated_at": "2021-03-26T14:09:40.093-04:00",
+        "description": "<p>The Albert M. Greenfield SCRC Reading Room is typically open from 8:30am - 5:30pm, Monday through Friday. Hours can be verified prior to your visit by viewing the <a href=\"../../../hours\">library hours page</a>.</p>\r\n<p>Any collection of unique material requires special handling. The following policies and procedures are designed to provide you with the greatest possible access to the materials at the SCRC while protecting and preserving those materials for future use.</p>\r\n<h2>Special Collections Research Center Access During the Pandemic</h2>\r\n<p>The Special Collections Research Center (SCRC) is open to the public by appointment only. In establishing the following policies, we seek to protect researchers and staff as much as possible. Appointment options and procedures may change as university or library policies develop, best practices continue to emerge, and circumstances call for it. We regularly consult the <a href=\"https://www.webjunction.org/explore-topics/COVID-19-research-project.html\">REALM project website</a> for best practices for safe handling and use of archives and special collections materials. We understand that not all researchers may feel comfortable with doing on-site research (see Remote Requests, below). <span style=\"color: #172b4d;font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;letter-spacing: -0.15px;\">Please <a href=\"https://library.temple.edu/forms/ask-scrc\">contact us</a></span><span style=\"color: #172b4d;font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;letter-spacing: -0.15px;\"> if you have any concerns and visit for updates</span></p>\r\n<p>All <a href=\"https://library.temple.edu/spaces/scrc-reading-room\">regular </a>researcher requirements (see below) remain in effect. In addition:</p>\r\n<p>Before your visit</p>\r\n<ul>\r\n<li>\r\n<p>Requests to view materials and for appointments must be made at least 3 days in advance. </p>\r\n</li>\r\n<li>\r\n<p>Appointments can be made in two hour blocks of time. Successive blocks of time are permitted. </p>\r\n</li>\r\n<li>\r\n<p>There may be a maximum of 6 researchers in the reading room concurrently. </p>\r\n</li>\r\n<li>\r\n<p>Walk-in visitors are not permitted.</p>\r\n</li>\r\n<li>\r\n<p>Researchers must create an <a href=\"https://temple.aeon.atlas-sys.com/\">SCRC Researcher Account</a> before they visit.</p>\r\n</li>\r\n<li>\r\n<p>In order to view materials in the reading room, there is a two step process.  </p>\r\n</li>\r\n<ul>\r\n<li>\r\n<p>Step one: request materials using your SCRC Researcher Account (for information on making requests see <a href=\"https://library.temple.edu/services/request-materials-from-scrc\">this page</a>).</p>\r\n</li>\r\n<li>\r\n<p> Step two:  A staff member will reach out to you to schedule an appointment.</p>\r\n</li>\r\n</ul>\r\n<li>\r\n<p>SCRC staff will email you to confirm that your request has been received and schedule your appointment.  Do not travel to the library if you have not received confirmation from us. </p>\r\n</li>\r\n</ul>\r\n<h2>During your visit</h2>\r\n<p>All visitors to the Libraries are expected to abide by the <a href=\"https://temple.us11.list-manage.com/track/click?u=b06797f0f6a4317cfe9c384d7&amp;id=9af51e746f&amp;e=41cc70b687\">Four Public Health Pillars</a> defined by the university.  If you are not feeling well, please respect everyone’s safety and contact our staff to cancel or reschedule your appointment.</p>\r\n<ul>\r\n<li>\r\n<p>Masks or face shields are required for both researchers and staff during appointments. If a researcher does not have a mask, the security guard on duty at the library entrance will provide a disposable mask while supplies last. If our supply of disposable masks is exhausted, the researcher will not be permitted to enter the building.</p>\r\n</li>\r\n<li>\r\n<p>Social distancing will be practiced at all times during your visit. Please observe any floor markings that indicate safe distances. </p>\r\n</li>\r\n<li>\r\n<p>In the reading room, you will be assigned a table that is distanced from the staff and other researchers. </p>\r\n</li>\r\n<li>\r\n<p>Researchers will wash hands in one of the restrooms on the ground floor before entering the reading room. Hand sanitizer and hand lotions cannot be used immediately prior to contact with archival materials or rare books. Gloves cannot be used with most archival materials or rare books. Cotton gloves will be provided by staff for handling photographic materials as necessary.</p>\r\n</li>\r\n<li>\r\n<p>Materials will be placed on a cart for a research visit. Researchers are asked to use only one box or volume at a time.</p>\r\n</li>\r\n<li>\r\n<p>Materials accessed by researchers will be placed in a 72-hour quarantine in a designated space after researcher use during which time those materials may not be accessed by other researchers or staff. Please note that for researchers requesting copies of collection materials, this may result in a 3 or more day delay in receiving copies of requested materials. We recommend researchers bring a smartphone or camera to photograph any materials for which they need copies more quickly. The <a href=\"https://library.temple.edu/services/request-copies-of-scrc-materials\">regular photoreproduction policies</a> apply. </p>\r\n</li>\r\n</ul>\r\n<h2>Remote Requests</h2>\r\n<p>Due to the ongoing COVID-19 crisis and in accordance with university and city and state safety policies, SCRC is currently operating under a reduced staffing model.  This has impacted all aspects of our public services including responses to reference questions and fulfillment of photoduplication orders.  We will continue to respond to requests as staffing and time allows, but you may experience longer than usual response times.  Please send your requests to <a href=\"https://library.temple.edu/forms/ask-scrc\">https://library.temple.edu/forms/ask-scrc</a>; <a href=\"mailto:scrc@temple.edu\">scrc@temple.edu</a>; or call 215-204-8257.  Thank you for your understanding.</p>\r\n<h2>Protection, Care and Handling of Materials</h2>\r\n<ul>\r\n<li>Food, beverages, and tobacco are not allowed in the reading room.</li>\r\n<li>Use only pencil and paper or laptop computer for taking notes. </li>\r\n<li>Use only one box of records or three printed items at a time.</li>\r\n<li>Remove one folder at a time from the box. </li>\r\n<li>Maintain the existing sequence of records; if materials within the folder appear to be out of order, please alert a staff member rather than rearranging the folder contents.</li>\r\n<li>Handle loose sheets or bound pages by their edges and avoid touching the surface as much as possible.</li>\r\n<li>Support the spines of rare or fragile books (using foam supports provided by staff).</li>\r\n<li>The staff may furnish gloves for handling photographs and other especially vulnerable items. </li>\r\n<li>Do not take notes on top of archival materials or holding them in ways that will tear, fold, or otherwise damage them.</li>\r\n</ul>\r\n<h2>Administrative Matters</h2>\r\n<p>Out of respect for fellow researchers, please silence all cell phones and pagers in the reading room, and take extended phone conversations outside of the reading room. All briefcases, laptop cases, book bags, handbags, books, newspapers, coats, and other personal belongings must be left in the lockers or on the coat rack. Personal materials used in the reading room may be searched when you leave. The reading room is monitored by security cameras at all times.</p>\r\n<h2>Returning and Reshelving Material</h2>\r\n<p>Before leaving the Reading Room, please return all material to the reference staff. You may ask to have material placed “on hold” for up to two weeks from the last time used.</p>\r\n<p>We appreciate your help in ensuring the long-term preservation of these unique materials.</p>",
+        "name": "Albert M. Greenfield SCRC Reading Room",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152048257",
+        "email": "scrc@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/scrc-reading-room"
+      }
+    },
+    {
+      "id": "3",
+      "type": "space",
+      "attributes": {
+        "label": "Health Sciences Libraries Study Rooms",
+        "updated_at": "2021-03-26T14:09:38.547-04:00",
+        "description": "<p>The Temple University Health Sciences Libraries are pleased to offer a large number of both large and small group study rooms.</p>\r\n<p>We ask that those using the group study rooms abide by the following guidelines:</p>\r\n<ul>\r\n<li>A Temple University Health Sciences ID card is required to check out a room key.</li>\r\n<li>Small group study rooms are available on a first come, first served basis. Keys will be issued at the circulation desk. These may be used by individuals or groups. </li>\r\n<li>Four hours is the maximum amount of time a room can be signed out. Renewals are allowed during low demand times.</li>\r\n<li>Occupancy in each group study room is limited to the amount of chairs already in the room; no moving/ removing furniture from the rooms.</li>\r\n<li>Rooms should be left clean and in order for the next patrons. This includes cleaning the white boards and picking up trash.</li>\r\n<li>Conversations should be held at a reasonable level.</li>\r\n<li>Learn more about <a href=\"http://guides.temple.edu/content.php?pid=353650&amp;sid=4198822\">technology in study rooms.</a>\n</li>\r\n<li>During busy exam periods, the larger study rooms (seating 6 or more) will be restricted for the use of groups containing 4 individuals or more. Individuals (groups of one) who wish to use a study room will be assigned to a smaller room (seating for 4). </li>\r\n<li>The Library is not responsible for personal property left in rooms.</li>\r\n</ul>",
+        "name": "Health Sciences Libraries Study Rooms",
+        "hours": "",
+        "accessibility": "A Temple University ID is required to check out a room key. Keys are issued at the Information Desk. ",
+        "phone_number": "2157072665",
+        "email": "hsccirc@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/health-sciences-libraries-study-rooms"
+      }
+    },
+    {
+      "id": "6",
+      "type": "space",
+      "attributes": {
+        "label": "Ginsburg Room 243",
+        "updated_at": "2021-03-26T14:09:38.590-04:00",
+        "description": "<p>The room is suitable for groups/meeting of us to 26 people. It has a computer with projection capabilities, a projection screen and internet access. There is a laptop connection for the projector. It is possible to change the configuration of the furniture.</p>",
+        "name": "Ginsburg Room 243",
+        "hours": "",
+        "accessibility": "Health Science Center faculty and staff should contact library staff at the Ginsburg Information Desk to schedule the room.",
+        "phone_number": "2157072665",
+        "email": "hsccirc@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/ginsburg-room-243"
+      }
+    },
+    {
+      "id": "25",
+      "type": "space",
+      "attributes": {
+        "label": "Small Group Study Rooms",
+        "updated_at": "2021-03-26T14:09:40.136-04:00",
+        "description": "<p>Small group study rooms are located throughout the third and fourth floors of Charles Library. </p>\r\n<p>Charles small and large group study rooms are available for Temple students, faculty, or staff. You may <a href=\"https://charlesstudy.temple.edu/reserve/charles-small\">reserve</a> the Charles study rooms for two one-hour blocks of time. Each person is able to make one reservation daily, up to 72 hours in advance.</p>\r\n<p>Any use of fraudulent email accounts or multiple email aliases to violate our study room policies or our library community standards will lead to a referral to the Temple University Student Conduct Board for review.</p>\r\n<h2>Small Group Study Rooms with Technology</h2>\r\n<h3>Capacity</h3>\r\n<p>1 person</p>\r\n<h3>Equipment</h3>\r\n<p>Each room contains a table, chairs, and a flat screen display. Connect your computer, tablet, or smartphone to the display using the Kramer Box wireless connection.</p>\r\n<p>If you need a hard wired connection, please borrow an HDMI cable from the One Stop Assistance desk on the first floor.</p>\r\n<h3>Room numbers</h3>\r\n<p>327, 349, 383, 384, 386, 403, 404, 411, 412, 413, 414, 415, 416, 417, 418, 422, 424, 426, 427</p>\r\n<h2>Small Group Study Rooms without Technology</h2>\r\n<h3>Capacity</h3>\r\n<p>1 person</p>\r\n<h3>Equipment</h3>\r\n<p>Each room contains a table and two chairs. These rooms have power outlets, but not additional technology. </p>\r\n<h3>Room numbers</h3>\r\n<p>348, 389, 390, 391, 392</p>\r\n<p> </p>",
+        "name": "Small Group Study Rooms",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152048212",
+        "email": "asktulibrary@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/study-rooms-small"
+      }
+    },
+    {
+      "id": "40",
+      "type": "space",
+      "attributes": {
+        "label": "Community computer lab",
+        "updated_at": "2021-03-26T14:09:40.386-04:00",
+        "description": "<p>Visitors and area residents may apply to the Temple University Libraries Community Computer Program at the Charles Library. The program offers 10 computers with Microsoft Suite software, a black and white cash-operated printer, a scanner, and a microfilm reader to area residents and other visitors. We recommend that you bring your own flash drive to use these devices. These community members, visitors, and Temple alumni are permitted two hours per day on one of the computers; additional time may be granted on a limited basis at the discretion of library staff. Temple University Library databases are also available on these computers.</p>\r\n<p>To apply, visitors must be 18 years or older and should come to the Charles service desk with a valid, government-issued photo ID and ask for an application. Guests must provide a valid email address on the application. The library staff will photocopy the visitor's ID and submit the application and ID photocopy to Temple Police for approval. Most applications are approved within two weeks and cards may be picked up at the library service desk.</p>\r\n<p>Temple alumni may also use the Charles' community computers. Alumni must first obtain their alumni photo ID at the <a href=\"https://www.alumni.temple.edu/s/705/alumni/16/interior.aspx?sid=705&amp;gid=1&amp;pgid=3730\">Alumni Services</a> office, then come to the library service desk so a staff member can add a barcode to the alumni ID. Alumni may then logon to a community computer with the barcode.</p>\r\n<p>In signing their application, guests agree to abide by <a href=\"../../../policies/9\">Temple University Libraries Community Standards</a>. Failure to abide by the Community Standards may result in termination of library privileges.</p>\r\n<p>Student Tech Assistants are on duty during the Community Computer Lab <a href=\"../../../hours\">hours</a>. These students can help guests with various computer programs from email to Microsoft Word to library databases. In addition, the library offers guests the use of assistive devices, such as the Ubi Duo 2 -- a two way communication system for the hearing-impaired or non-verbal, and the Optelec Clear View C Speech Reader -- a desktop computer for the vision-impaired.</p>",
+        "name": "Community computer lab",
+        "hours": "guest_computers",
+        "accessibility": "",
+        "phone_number": "2152048212",
+        "email": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/community-computer-lab"
+      }
+    },
+    {
+      "id": "41",
+      "type": "space",
+      "attributes": {
+        "label": "Charles Library 4th Floor",
+        "updated_at": "2021-03-26T14:09:40.404-04:00",
+        "description": "<p>Charles Library 4th Floor houses the library's browsing collection, the Hirsch Juvenile Collection, the quiet reading room, the Graduate and Faculty Study and several group study rooms.</p>",
+        "name": "Charles Library 4th Floor",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152048212",
+        "email": "asktulibrary@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/charles-library-4th-floor"
+      }
+    },
+    {
+      "id": "11",
+      "type": "space",
+      "attributes": {
+        "label": "Special Collections Research Center",
+        "updated_at": "2021-03-26T14:09:38.660-04:00",
+        "description": "<p>The SCRC is the principal repository for and steward of the Libraries’ rare books, manuscripts, archives and University records. We collect, preserve, and make accessible primary resources and rare or unique materials, to stimulate, enrich, and support research, teaching, learning, and administration at Temple University. SCRC makes these resources available to the Temple community and a broad constituency as part of the University's engagement with the larger community of scholars and independent researchers.</p>\r\n<p>While we are constantly striving to increase the discoverability of our materials, this website only covers a small portion of our actual collections and holdings--which is over 90,000 linear feet, many terabytes, and growing. If you don't find what you are looking for on our website, we encourage you to visit, call or e-mail us.</p>",
+        "name": "Special Collections Research Center",
+        "hours": "scrc",
+        "accessibility": "Researcher registration and requests to use SCRC materials can now be made using your SCRC Researcher Account.",
+        "phone_number": "2152048257",
+        "email": "scrc@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/scrc-room"
+      }
+    },
+    {
+      "id": "14",
+      "type": "space",
+      "attributes": {
+        "label": "Charles L. Blockson Reading Room",
+        "updated_at": "2021-03-26T14:09:38.688-04:00",
+        "description": "<p class=\"p1\">Access to research materials is available on-site only. Materials in the collection do not circulate. Photocopying, scanning and/or photographing of most materials is allowed, if the material is in a good condition.</p>\r\n<p class=\"p1\">To use special collections (i.e. photographs and manuscripts) users are advised to arrange appointments.</p>\r\n<p class=\"p1\">The collection is open to the public and group tours are available by appointment.</p>\r\n<p class=\"p1\">For tour reservations call (215) 204-6632.</p>\r\n<p class=\"p1\"> </p>",
+        "name": "Charles L. Blockson Reading Room",
+        "hours": "blockson",
+        "accessibility": "",
+        "phone_number": "2152046849",
+        "email": "aberhanu@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/charles-l-blockson-reading-room"
+      }
+    },
+    {
+      "id": "16",
+      "type": "space",
+      "attributes": {
+        "label": "Loretta C. Duckworth Scholars Studio",
+        "updated_at": "2021-03-26T14:09:38.704-04:00",
+        "description": "<p>The Loretta C. Duckworth Scholars Studio is a space for collaborative work in areas of research and technology; digital humanities, digital arts, gaming, making, big data and others. It contains technical equipment and software for a variety of activities including textual analysis, working with big data, working in and creating 3D spaces, geospatial technology, games and visualizations. </p>\r\n<h3>Services</h3>\r\n<p>Staff in the LCDSS are knowledgeable in a many of these areas and can assist you or your class in getting started or working with these technologies.  The LCDSS also provides recommendations and support for project design and project management of digital projects. Additionally, you can check out games and <a href=\"../../../services/47\">equipment</a> and use our <a href=\"../../../spaces/34\">VR/Visualization Studio</a> and <a href=\"../../../spaces/28\">Makerspace</a>. Specific spaces in the Scholars Studio can be <a href=\"https://charlesstudy.temple.edu/reserve/lcdss\">reserved online</a>.</p>\r\n<h3>Workshops</h3>\r\n<p>Don't miss out on our <a href=\"../../../events?location=Charles+Library&amp;page=1\">Spring 2020 Workshops</a> on a wide range of methods and skillsets, from 3D modeling and making miniatures to data analysis and visualization! You can also read about <a href=\"../../../services/59\">past workshops</a>.</p>",
+        "name": "Loretta C. Duckworth Scholars Studio",
+        "hours": "scholars_studio",
+        "accessibility": "",
+        "phone_number": "2152040752",
+        "email": "digitalscholarship@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/lcdss"
+      }
+    },
+    {
+      "id": "17",
+      "type": "space",
+      "attributes": {
+        "label": "Law Library Information Desk",
+        "updated_at": "2021-03-26T14:09:38.719-04:00",
+        "description": "<p>The Temple University Beasley School of Law Library has a long history as a research library and as a service-oriented facility to the Law School. It survived a fire in 1972 at which time students, staff and other members of the Temple community passed books out of the burning building until it became too dangerous and they were ordered to stop. They managed to save a large number of rare and valuable volumes, but more than 150,000 books were destroyed. The library has since that time restored and enriched its collection.</p>\r\n<p>The collection is particularly strong in 18th and 19th century Anglo-American monographs. The addition of the Rawle Collection gives Temple Law Library a special character. The library also has a unique collection of African materials.</p>\r\n<p>Part of the collection is in closed stacks behind the Information Desk and must be accessed through Information Desk personnel. In the closed stacks are reference materials, the reserve collection, copies of past exams, most of the monographs, rare books, unbound periodicals. The collection is, for the most part, classified in the Library of Congress Classification and monographs must be requested by call number.</p>",
+        "name": "Law Library Information Desk",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152045819",
+        "email": "tulawlib@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/law-library-information-desk"
+      }
+    },
+    {
+      "id": "20",
+      "type": "space",
+      "attributes": {
+        "label": "Stella's Cafe",
+        "updated_at": "2021-03-26T14:09:38.733-04:00",
+        "description": "<p>Stella's offers La Colombe Coffee, grab &amp; go salads and sandwiches, and pastries. We will have a standard menu of offerings and then incorporate some seasonal specials. </p>",
+        "name": "Stella's Cafe",
+        "hours": "cafe",
+        "accessibility": "",
+        "phone_number": "",
+        "email": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/stella-s-cafe"
+      }
+    },
+    {
+      "id": "26",
+      "type": "space",
+      "attributes": {
+        "label": "Large Group Study Rooms",
+        "updated_at": "2021-03-26T14:09:40.152-04:00",
+        "description": "<p>Charles Library has a handful of large group study rooms,these rooms have a display screen and a dedicated computer in each room. You can also connect your own computer, tablet or smartphone device to the display using the KramerBox wireless connection.  </p>\r\n<p>You may <a href=\"https://charlesstudy.temple.edu/reserve/charles-large\">reserve</a> the Charles study rooms for two one-hour blocks of time. Each person is able to make one reservation daily, up to 48 hours in advance.</p>\r\n<p>Any use of fraudulent email accounts or multiple email aliases to violate our study room policies or our library community standards will lead to a referral to the Temple University Student Conduct Board for review.</p>",
+        "name": "Large Group Study Rooms",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152048212",
+        "email": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/large-group-study-rooms"
+      }
+    },
+    {
+      "id": "28",
+      "type": "space",
+      "attributes": {
+        "label": "Makerspace",
+        "updated_at": "2021-03-26T14:09:40.193-04:00",
+        "description": "<h2>Hours of Operation</h2>\r\n<p>The Makerspace is open to students, faculty, and staff of Temple University, Monday -  Friday 8:30am - 5:00pm.</p>\r\n<p>On occasion, staff will not be present and the space will close temporarily.</p>\r\n<p>Patrons are not allowed to be unsupervised in the space under any circumstances.</p>\r\n<h2>Reservations</h2>\r\n<p>NOTE: ALL VISITS ARE CURRENTLY BY <a href=\"https://charlesstudy.temple.edu/space/58770\">APPOINTMENT</a> ONLY.</p>\r\n<p>The space and consultations can be <a href=\"https://charlesstudy.temple.edu/space/58770\">reserved</a> by patrons, with priority given to faculty for class assignments and research.</p>\r\n<p>For more information or questions email us at <a href=\"mailto:%20digitalscholarship@temple.edu\">digitalscholarship@temple.edu</a>.</p>\r\n<h2>Safety Regulations</h2>\r\n<p>Each machine has specific safety rules covered in the training, and printed on signs above the corresponding machine.  These include “Materials to be used in machines”, “Cleaning and Maintenance,” and “Troubleshooting Tips.”</p>\r\n<p>If patrons bring their own materials for subtractive manufacturing on the CNC, staff will double check whether such materials are appropriate for our machines.</p>\r\n<p>Printed materials will provide further guidance for patrons.</p>\r\n<p>Bags must not be placed on the floor unless under a table or bench and walkways must be kept clear at all times. </p>\r\n<h2>After-Hours Policy</h2>\r\n<p>Print jobs are allowed to run after hours, as long as they are started at least one hour before closing.</p>\r\n<p>CNC jobs must be paused at closing. They can resume when the space re-opens.</p>\r\n<h2>Storage Policy</h2>\r\n<p>Ongoing projects will be stored by staff in the storage space.</p>\r\n<p>Projects are stored on a first-come, first-served basis. Projects cannot stay in the publicly accessible areas of the Makerspace if there is no available storage and they are not being actively worked on.</p>\r\n<p>Projects which are not retrieved by the patron after two weeks time will be discarded unless other arrangements were agreed on in writing.</p>\r\n<h2>Makerspace Grant</h2>\r\n<p>Faculty looking to integrate emerging technologies in their classrooms should consider applying for our <a href=\"../../../services/50\">Innovative Teaching with Makerspace Technology Grant</a>.</p>",
+        "name": "Makerspace",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152040752",
+        "email": "digitalscholarship@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/makerspace"
+      }
+    },
+    {
+      "id": "31",
+      "type": "space",
+      "attributes": {
+        "label": "24/7 Study Area",
+        "updated_at": "2021-03-26T14:09:40.245-04:00",
+        "description": "<p style=\"line-height: 1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size: 11pt;font-family: Arial;color: #0e101a;background-color: transparent;font-weight: 400;font-style: normal;font-variant: normal;text-decoration: none;vertical-align: baseline;white-space: pre-wrap;\">This space is accessible to all Temple affiliates 24 hours a day, 365 days a year. </span><a style=\"text-decoration: none;\" href=\"../../../hours\"><span style=\"font-size: 11pt;font-family: Arial;color: #1155cc;background-color: transparent;font-weight: 400;font-style: normal;font-variant: normal;text-decoration: underline;vertical-align: baseline;white-space: pre-wrap;\">After the library closes to the public each day</span></a><span style=\"font-size: 11pt;font-family: Arial;color: #0e101a;background-color: transparent;font-weight: 400;font-style: normal;font-variant: normal;text-decoration: none;vertical-align: baseline;white-space: pre-wrap;\">, anyone with a current Temple University ID can enter this space by swiping at the entrance located at the intersection of Liacouras and Polett Walks. </span></p>\r\n<p style=\"line-height: 1.38;margin-top:0pt;margin-bottom:0pt;\"> </p>\r\n<p style=\"line-height: 1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size: 11pt;font-family: Arial;color: #0e101a;background-color: transparent;font-weight: 400;font-style: normal;font-variant: normal;text-decoration: none;vertical-align: baseline;white-space: pre-wrap;\">The area includes both a laptop and battery kiosk, a printer, and a book drop for late-night library material returns.</span></p>\r\n<p>If you are interested in reserving this room for a special event, please visit <a href=\"../../../forms/event-space-request\">https://library.temple.edu/forms/event-space-request</a> and submit your request.</p>",
+        "name": "24/7 Study Area",
+        "hours": "24-7",
+        "accessibility": "",
+        "phone_number": "2152040292",
+        "email": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/24-7-study-area"
+      }
+    },
+    {
+      "id": "13",
+      "type": "space",
+      "attributes": {
+        "label": "2nd Floor Staff Area",
+        "updated_at": "2021-04-09T16:38:26.332-04:00",
+        "description": "<p>Many of the technical services work will happen in the 2nd floor staff area in the Charles Library. </p>",
+        "name": "2nd Floor Staff Area",
+        "hours": "",
+        "accessibility": "",
+        "phone_number": "2152048212",
+        "email": "asktulib@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/2nd-floor-staff-area"
+      }
+    },
+    {
+      "id": "42",
+      "type": "space",
+      "attributes": {
+        "label": "Joe Lucia",
+        "updated_at": "2021-04-09T16:38:58.876-04:00",
+        "description": "",
+        "name": "Joe Lucia",
+        "hours": "",
+        "accessibility": null,
+        "phone_number": "2152048231",
+        "email": "joe.lucia@temple.edu"
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/42"
+      }
+    },
+    {
+      "id": "43",
+      "type": "space",
+      "attributes": {
+        "label": "3rd Floor Staff Area",
+        "updated_at": "2021-04-09T16:40:05.825-04:00",
+        "description": "",
+        "name": "3rd Floor Staff Area",
+        "hours": "",
+        "accessibility": null,
+        "phone_number": "2152048231",
+        "email": null
+      },
+      "links": {
+        "self": "https://library.temple.edu/spaces/43"
+      }
+    }
+  ]
+}

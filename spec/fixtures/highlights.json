@@ -1,0 +1,1249 @@
+{
+  "data": [
+    {
+      "id": "4",
+      "type": "highlight",
+      "attributes": {
+        "label": "test",
+        "updated_at": "2020-03-04T14:56:28.058-05:00",
+        "title": "test",
+        "blurb": "tetet ewqwet qwe ewrqw",
+        "link": "http://google.com",
+        "type_of_highlight": "Program/Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "2",
+      "type": "highlight",
+      "attributes": {
+        "label": "City Hall Holiday Tree",
+        "updated_at": "2020-03-04T14:56:28.066-05:00",
+        "title": "City Hall Holiday Tree",
+        "blurb": "Go see the holiday tree at city hall. It has a cool base that shows all the neighborhoods around philadelphia",
+        "link": "https://www.visitphilly.com/articles/philadelphia/guide-to-tree-lighting-celebrations-in-philadelphia-and-the-countryside/",
+        "type_of_highlight": "Featured Location",
+        "tags": "HSL, DSC",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "6",
+      "type": "highlight",
+      "attributes": {
+        "label": "This is a new highlight",
+        "updated_at": "2020-03-04T14:56:28.075-05:00",
+        "title": "This is a new highlight",
+        "blurb": "Testing, testing, testing",
+        "link": "www.reddit.com/r/philadelphia",
+        "type_of_highlight": "DSC Event",
+        "tags": "adsflj",
+        "promoted": false,
+        "link_label": "Testing some more"
+      }
+    },
+    {
+      "id": "10",
+      "type": "highlight",
+      "attributes": {
+        "label": "Charles Library Debuts This Fall",
+        "updated_at": "2020-03-04T14:56:28.084-05:00",
+        "title": "Charles Library Debuts This Fall",
+        "blurb": "Find out more",
+        "link": "https://web.tul-infra.page/explore-charles",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "7",
+      "type": "highlight",
+      "attributes": {
+        "label": "Workshops at Health Sciences Libraries",
+        "updated_at": "2020-03-04T14:56:28.092-05:00",
+        "title": "Workshops at Health Sciences Libraries",
+        "blurb": "Announcing the fall 2019 workshop schedule",
+        "link": "https://ginsburgstudy.temple.edu/calendar/events/?cid=4248&t=g&d=0000-00-00&cal=4248",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "3",
+      "type": "highlight",
+      "attributes": {
+        "label": "test",
+        "updated_at": "2020-03-04T14:56:28.047-05:00",
+        "title": "test",
+        "blurb": "tetet ewqwet qwe ewrqw",
+        "link": "http://google.com",
+        "type_of_highlight": "Program/Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "9",
+      "type": "highlight",
+      "attributes": {
+        "label": "New Beyond the Page Season",
+        "updated_at": "2020-03-04T14:56:28.101-05:00",
+        "title": "New Beyond the Page Season",
+        "blurb": "Check our events calendar for library workshops, events, and public programs coming up this fall",
+        "link": "https://web.tul-infra.page/events",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "5",
+      "type": "highlight",
+      "attributes": {
+        "label": "Livingstone Undergraduate Research Awards",
+        "updated_at": "2020-03-04T14:56:28.109-05:00",
+        "title": "Livingstone Undergraduate Research Awards",
+        "blurb": "We are now accepting applications for the Livingstone Undergraduate Research Awards. The application deadline for the 2019 Livingstone Awards is Monday, February 18th.",
+        "link": "http://guides.temple.edu/livingstone#",
+        "type_of_highlight": "Program/Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": "Livingstone Undergraduate Research Awards"
+      }
+    },
+    {
+      "id": "1",
+      "type": "highlight",
+      "attributes": {
+        "label": "Test Highlight",
+        "updated_at": "2020-03-04T14:56:28.118-05:00",
+        "title": "Test Highlight",
+        "blurb": "This is a test higlight",
+        "link": "http://nytimes.com",
+        "type_of_highlight": "Featured Resource",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "18",
+      "type": "highlight",
+      "attributes": {
+        "label": "Celebrate Open Access Week",
+        "updated_at": "2020-03-04T14:56:28.127-05:00",
+        "title": "Celebrate Open Access Week",
+        "blurb": "Find out how you can get involved during Open Access Week at Temple University Libraries ",
+        "link": "https://sites.temple.edu/scholarlycommunication/oa-week/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "8",
+      "type": "highlight",
+      "attributes": {
+        "label": "Temple University Press's Fall Catalog",
+        "updated_at": "2020-03-04T14:56:28.140-05:00",
+        "title": "Temple University Press's Fall Catalog",
+        "blurb": "View the Press's fall 2019 books",
+        "link": "https://templepress.wordpress.com/2019/05/15/announcing-temple-university-press-fall-2019-books/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "19",
+      "type": "highlight",
+      "attributes": {
+        "label": "Reduce the Cost of College w/ Textbook Affordability Project",
+        "updated_at": "2020-03-04T14:56:28.153-05:00",
+        "title": "Reduce the Cost of College w/ Textbook Affordability Project",
+        "blurb": "Learn how you can support our OwlCrowd campaign",
+        "link": "https://www.giving.temple.edu/textbook",
+        "type_of_highlight": "Featured Resource",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "14",
+      "type": "highlight",
+      "attributes": {
+        "label": "Matthew Battles in Conversation with Joe Lucia",
+        "updated_at": "2020-03-04T14:56:28.162-05:00",
+        "title": "Matthew Battles in Conversation with Joe Lucia",
+        "blurb": "Join us as we kick off our fall event series",
+        "link": "https://library.temple.edu/events/650",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "12",
+      "type": "highlight",
+      "attributes": {
+        "label": "New Semester, New Look at the Libraries",
+        "updated_at": "2020-03-04T14:56:28.171-05:00",
+        "title": "New Semester, New Look at the Libraries",
+        "blurb": "Welcome to the fall 2019 semester",
+        "link": "https://sites.temple.edu/librarynews/2019/08/26/new-semester-new-look-at-the-libraries/",
+        "type_of_highlight": "Featured Resource",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "11",
+      "type": "highlight",
+      "attributes": {
+        "label": "Libraries Launch New Website",
+        "updated_at": "2020-03-04T14:56:28.180-05:00",
+        "title": "Libraries Launch New Website",
+        "blurb": "Find out more about the launch of our new website",
+        "link": "https://sites.temple.edu/librarynews/2019/08/15/libraries-launch-new-website/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "16",
+      "type": "highlight",
+      "attributes": {
+        "label": "Homecoming Weekend",
+        "updated_at": "2020-03-04T14:56:28.198-05:00",
+        "title": "Homecoming Weekend",
+        "blurb": "Celebrate Homecoming and Family Weekend at the new Charles Library",
+        "link": "http://homecoming.temple.edu/s/705/19/home.aspx",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "13",
+      "type": "highlight",
+      "attributes": {
+        "label": "Beyond the Notes Announces Fall 2019 Season",
+        "updated_at": "2020-03-04T14:56:28.208-05:00",
+        "title": "Beyond the Notes Announces Fall 2019 Season",
+        "blurb": "We are excited to announce the first season of Beyond the Notes in Temple University’s beautiful new Charles Library",
+        "link": "https://sites.temple.edu/performingartsnews/2019/08/29/beyond-the-notes-announces-fall-2019-season-at-charles-library/",
+        "type_of_highlight": "Program/Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "21",
+      "type": "highlight",
+      "attributes": {
+        "label": "Giving TUesday",
+        "updated_at": "2020-03-04T14:56:28.217-05:00",
+        "title": "Giving TUesday",
+        "blurb": "Support Temple during this global celebration of philanthropy",
+        "link": "https://www.giving.temple.edu/s/705/giving/17/campaign/home.aspx?sid=705&gid=1&pgid=10871",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "23",
+      "type": "highlight",
+      "attributes": {
+        "label": "Faculty Fellowship Program at Scholars Studio",
+        "updated_at": "2020-03-04T14:56:28.227-05:00",
+        "title": "Faculty Fellowship Program at Scholars Studio",
+        "blurb": "Application Deadline: December 20, 2019",
+        "link": "https://library.temple.edu/services/69",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "22",
+      "type": "highlight",
+      "attributes": {
+        "label": "Extra Seating",
+        "updated_at": "2020-03-04T14:56:28.237-05:00",
+        "title": "Extra Seating",
+        "blurb": "More study spots and seating in Charles during finals",
+        "link": "https://sites.temple.edu/librarynews/2019/12/10/extra-seating-in-charles-library-for-finals/",
+        "type_of_highlight": "Featured Resource",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "24",
+      "type": "highlight",
+      "attributes": {
+        "label": "Graduate Extern Program at Scholars Studio",
+        "updated_at": "2020-03-04T14:56:28.256-05:00",
+        "title": "Graduate Extern Program at Scholars Studio",
+        "blurb": "Application Deadline: January 30, 2020",
+        "link": "https://library.temple.edu/services/70",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "25",
+      "type": "highlight",
+      "attributes": {
+        "label": "Building the 21st Century Library",
+        "updated_at": "2020-03-04T14:56:28.265-05:00",
+        "title": "Building the 21st Century Library",
+        "blurb": "reflections on a project completed",
+        "link": "https://library.temple.edu/events/780",
+        "type_of_highlight": "Program/Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "30",
+      "type": "highlight",
+      "attributes": {
+        "label": "Temple University Novel Coronavirus (COVID-19) Updates",
+        "updated_at": "2020-05-04T09:07:55.629-04:00",
+        "title": "Temple University Novel Coronavirus (COVID-19) Updates",
+        "blurb": "Information and resources for Temple University",
+        "link": "https://www.temple.edu/coronavirus",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "17",
+      "type": "highlight",
+      "attributes": {
+        "label": "Charles Library: What You Need to Know",
+        "updated_at": "2020-03-19T12:14:27.077-04:00",
+        "title": "Charles Library: What You Need to Know",
+        "blurb": "Stay updated on building progress and resource accessibility",
+        "link": "https://library.temple.edu/pages/49",
+        "type_of_highlight": "Featured Resource",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "26",
+      "type": "highlight",
+      "attributes": {
+        "label": "Spring 2020 Programs and Workshops",
+        "updated_at": "2020-03-19T12:14:45.209-04:00",
+        "title": "Spring 2020 Programs and Workshops",
+        "blurb": "Browse upcoming spring events now",
+        "link": "https://library.temple.edu/events",
+        "type_of_highlight": "Program/Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "29",
+      "type": "highlight",
+      "attributes": {
+        "label": "FAQ: Library Resources ",
+        "updated_at": "2020-07-22T09:38:45.817-04:00",
+        "title": "FAQ: Library Resources ",
+        "blurb": "Everything you need to know about access to Library resources",
+        "link": "https://library.temple.edu/categories/faq-library-resources-for-the-remainder-of-the-semester",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "27",
+      "type": "highlight",
+      "attributes": {
+        "label": "Innovative Teaching with Makerspace Technology Grant",
+        "updated_at": "2020-04-15T08:59:36.149-04:00",
+        "title": "Innovative Teaching with Makerspace Technology Grant",
+        "blurb": "Faculty applications due April 13",
+        "link": "https://library.temple.edu/services/50",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "28",
+      "type": "highlight",
+      "attributes": {
+        "label": "Resources for Temple Instructors",
+        "updated_at": "2020-07-30T14:50:18.826-04:00",
+        "title": "Resources for Temple Instructors",
+        "blurb": "Updates on faculty support ",
+        "link": "https://library.temple.edu/webpages/resources-for-temple-faculty",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "31",
+      "type": "highlight",
+      "attributes": {
+        "label": "Temple Toast - April 23, 2020",
+        "updated_at": "2020-04-28T10:53:08.568-04:00",
+        "title": "Temple Toast - April 23, 2020",
+        "blurb": "Owls from all over the world will join together for 24 hours to make a collective impact ",
+        "link": "https://www.giving.temple.edu/s/705/giving/17/campaign/home.aspx?sid=705&gid=1&pgid=9015",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "32",
+      "type": "highlight",
+      "attributes": {
+        "label": "Announcing this year's winners",
+        "updated_at": "2020-07-14T11:53:09.864-04:00",
+        "title": "Announcing this year's winners",
+        "blurb": "Congratulations to the 2019-2020 Livingstone Undergraduate Research Award winners!",
+        "link": "https://sites.temple.edu/livingstone/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "33",
+      "type": "highlight",
+      "attributes": {
+        "label": "Congratulations 2020 graduates!",
+        "updated_at": "2020-06-11T08:38:53.135-04:00",
+        "title": "Congratulations 2020 graduates!",
+        "blurb": "Temple alumni have lifelong benefits through Temple University Libraries",
+        "link": "https://library.temple.edu/services/alumni-services",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "41",
+      "type": "highlight",
+      "attributes": {
+        "label": "Message from the dean",
+        "updated_at": "2020-09-10T08:25:29.465-04:00",
+        "title": "Message from the dean",
+        "blurb": "Read Dean Lucia's fall 2020 message",
+        "link": "https://library.temple.edu/categories/welcome",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "34",
+      "type": "highlight",
+      "attributes": {
+        "label": "Behind the Scenes audio series",
+        "updated_at": "2020-07-30T14:34:10.951-04:00",
+        "title": "Behind the Scenes audio series",
+        "blurb": "An Interview with staff member Michael about digitizing art and history",
+        "link": "https://sites.temple.edu/humansciences/2020/06/03/digitizing-art-and-history-an-interview-with-michael-carroll/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "38",
+      "type": "highlight",
+      "attributes": {
+        "label": "Important update from Temple Libraries",
+        "updated_at": "2020-08-17T15:17:25.728-04:00",
+        "title": "Important update from Temple Libraries",
+        "blurb": "View our August 12 eblast",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=e376f25bfd",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "37",
+      "type": "highlight",
+      "attributes": {
+        "label": "Behind the scenes audio series",
+        "updated_at": "2020-08-24T09:19:05.811-04:00",
+        "title": "Behind the scenes audio series",
+        "blurb": "In the Duckworth Scholars Studio with Jordan Hample",
+        "link": "https://sites.temple.edu/humansciences/2020/06/17/in-the-duckworth-scholars-studio-with-jordan-hample/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "36",
+      "type": "highlight",
+      "attributes": {
+        "label": "What to expect when visiting us in person",
+        "updated_at": "2021-01-19T12:16:50.308-05:00",
+        "title": "What to expect when visiting us in person",
+        "blurb": "The latest updates on library resources and services",
+        "link": "https://library.temple.edu/categories/coronavirus",
+        "type_of_highlight": "Featured Resource",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "35",
+      "type": "highlight",
+      "attributes": {
+        "label": "Speaking Volumes",
+        "updated_at": "2020-08-24T09:22:06.476-04:00",
+        "title": "Speaking Volumes",
+        "blurb": "Read the spring/summer 2020 digital issue now",
+        "link": "https://sway.office.com/46wHiyDG1mGni85Y",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "40",
+      "type": "highlight",
+      "attributes": {
+        "label": "Welcome back",
+        "updated_at": "2020-09-10T08:31:41.927-04:00",
+        "title": "Welcome back",
+        "blurb": "Your fall 2020 guide",
+        "link": "https://sites.temple.edu/librarynews/2020/08/19/your-fall-2020-guide-to-temple-university-libraries/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "39",
+      "type": "highlight",
+      "attributes": {
+        "label": "August 12 eblast",
+        "updated_at": "2020-09-02T15:15:47.765-04:00",
+        "title": "August 12 eblast",
+        "blurb": "Supporting open access and promoting open educational resources",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=e376f25bfd",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "55",
+      "type": "highlight",
+      "attributes": {
+        "label": "November highlights and happenings",
+        "updated_at": "2020-11-25T14:28:36.727-05:00",
+        "title": "November highlights and happenings",
+        "blurb": "Read our November 11 eblast",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=8dfbacc57a",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "42",
+      "type": "highlight",
+      "attributes": {
+        "label": "August 26 eblast",
+        "updated_at": "2020-09-10T08:28:22.497-04:00",
+        "title": "August 26 eblast",
+        "blurb": "Catch up on our most recent eblast",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=8b479dc1df",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "52",
+      "type": "highlight",
+      "attributes": {
+        "label": "Open Access Week",
+        "updated_at": "2020-10-26T11:51:39.203-04:00",
+        "title": "Open Access Week",
+        "blurb": "October 19-25",
+        "link": "https://sites.temple.edu/scholarlycommunication/oa-week/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "44",
+      "type": "highlight",
+      "attributes": {
+        "label": "September 9 eblast",
+        "updated_at": "2020-09-23T13:10:55.537-04:00",
+        "title": "September 9 eblast",
+        "blurb": "Our upcoming season of virtual events",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=d02fb81c84",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "45",
+      "type": "highlight",
+      "attributes": {
+        "label": "Exhibit and programming",
+        "updated_at": "2020-09-25T13:12:38.847-04:00",
+        "title": "Exhibit and programming",
+        "blurb": "Presented by Temple Health Sciences Libraries and the Center for Urban Bioethics",
+        "link": "https://sites.google.com/temple.edu/yellowfever/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "51",
+      "type": "highlight",
+      "attributes": {
+        "label": "What's new this October?",
+        "updated_at": "2020-11-03T08:32:09.075-05:00",
+        "title": "What's new this October?",
+        "blurb": "Read our latest eblast",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=db9f82a4e7",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "46",
+      "type": "highlight",
+      "attributes": {
+        "label": "September 23 eblast",
+        "updated_at": "2020-10-07T08:20:54.060-04:00",
+        "title": "September 23 eblast",
+        "blurb": "Upcoming programs, a website launch, and more",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=9be7721e9a",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "47",
+      "type": "highlight",
+      "attributes": {
+        "label": "Fall workshops",
+        "updated_at": "2020-10-12T09:32:56.803-04:00",
+        "title": "Fall workshops",
+        "blurb": "From VR equipment, to scholarly profiles, to fact-checking misinformation",
+        "link": "https://library.temple.edu/events?page=1&type=workshop#list",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "54",
+      "type": "highlight",
+      "attributes": {
+        "label": "Clocks fall back, the semester falls forward",
+        "updated_at": "2020-11-11T11:31:15.307-05:00",
+        "title": "Clocks fall back, the semester falls forward",
+        "blurb": "View our October 28 eblast now",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=7d75481fd1",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "57",
+      "type": "highlight",
+      "attributes": {
+        "label": "Giving TUesday",
+        "updated_at": "2020-12-08T09:49:04.683-05:00",
+        "title": "Giving TUesday",
+        "blurb": "Support Temple Libraries and make your mark on December 1",
+        "link": "https://www.giving.temple.edu/s/705/giving/17/campaign/home.aspx?sid=705&gid=1&pgid=10871",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "48",
+      "type": "highlight",
+      "attributes": {
+        "label": "Short Edition",
+        "updated_at": "2020-10-12T09:36:09.090-04:00",
+        "title": "Short Edition",
+        "blurb": "Winners read and inter-university contest announcement",
+        "link": "https://sites.temple.edu/librarynews/2020/10/06/a-welcome-interruption-winners-read-and-inter-university-contest-announcement/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "49",
+      "type": "highlight",
+      "attributes": {
+        "label": "Homecoming & Family Weekend ",
+        "updated_at": "2020-10-19T12:44:14.981-04:00",
+        "title": "Homecoming & Family Weekend ",
+        "blurb": "October 12 - 18, 2020",
+        "link": "http://homecoming.temple.edu/s/705/19/home.aspx?sid=705&gid=1&pgid=11473",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "58",
+      "type": "highlight",
+      "attributes": {
+        "label": "November 25 eblast",
+        "updated_at": "2020-12-10T11:12:11.832-05:00",
+        "title": "November 25 eblast",
+        "blurb": "Library access update and end of semester resources",
+        "link": "https://mailchi.mp/temple/wishing-you-a-safe-fall-break",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "53",
+      "type": "highlight",
+      "attributes": {
+        "label": "Fall workshops ",
+        "updated_at": "2020-11-11T11:32:04.730-05:00",
+        "title": "Fall workshops ",
+        "blurb": "Register today!",
+        "link": "https://library.temple.edu/events?type=workshop",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "62",
+      "type": "highlight",
+      "attributes": {
+        "label": "Perspectives on substance use disorder: An exercise in empathy",
+        "updated_at": "2021-01-07T10:16:19.738-05:00",
+        "title": "Perspectives on substance use disorder: An exercise in empathy",
+        "blurb": "Read the blog ",
+        "link": "https://sites.temple.edu/librarynews/2021/01/07/perspectives-on-substance-use-disorder-an-exercise-in-empathy/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "50",
+      "type": "highlight",
+      "attributes": {
+        "label": "Reading for social change",
+        "updated_at": "2020-11-11T11:38:49.054-05:00",
+        "title": "Reading for social change",
+        "blurb": "Guest blog by Wellness Resource Center",
+        "link": "https://sites.temple.edu/librarynews/2020/10/12/reading-for-social-change-1thing-we-can-do-for-a-safer-tomorrow/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "43",
+      "type": "highlight",
+      "attributes": {
+        "label": "Temple's new institutional repository",
+        "updated_at": "2020-11-24T09:29:58.546-05:00",
+        "title": "Temple's new institutional repository",
+        "blurb": "Visit TUScholarShare's website today",
+        "link": "https://scholarshare.temple.edu/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "61",
+      "type": "highlight",
+      "attributes": {
+        "label": "Watch past library programs",
+        "updated_at": "2021-01-19T12:14:30.338-05:00",
+        "title": "Watch past library programs",
+        "blurb": "Missed a program? Love one so much you want to rewatch? View them on our website",
+        "link": "https://library.temple.edu/watchpastprograms",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "59",
+      "type": "highlight",
+      "attributes": {
+        "label": "Winter concert with TachyChordia",
+        "updated_at": "2020-12-17T09:19:45.259-05:00",
+        "title": "Winter concert with TachyChordia",
+        "blurb": "Tune in December 16 at noon!",
+        "link": "https://library.temple.edu/events/993",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "56",
+      "type": "highlight",
+      "attributes": {
+        "label": "Cultural Analytics Certificate",
+        "updated_at": "2021-01-07T10:14:40.249-05:00",
+        "title": "Cultural Analytics Certificate",
+        "blurb": "For graduate admission and program information, visit the website",
+        "link": "https://library.temple.edu/categories/cultural-analytics-certificate-program",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "60",
+      "type": "highlight",
+      "attributes": {
+        "label": "Wrapping up the fall semester",
+        "updated_at": "2021-01-19T12:12:49.743-05:00",
+        "title": "Wrapping up the fall semester",
+        "blurb": "Graduate student opportunities, digital collections and more from our December 9 update",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=887bb0b8a4",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "63",
+      "type": "highlight",
+      "attributes": {
+        "label": "Perspectives on substance use disorder",
+        "updated_at": "2021-01-28T11:16:19.751-05:00",
+        "title": "Perspectives on substance use disorder",
+        "blurb": "Read the blog",
+        "link": "https://sites.temple.edu/librarynews/2021/01/07/perspectives-on-substance-use-disorder-an-exercise-in-empathy/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "66",
+      "type": "highlight",
+      "attributes": {
+        "label": "Access and services during COVID-19",
+        "updated_at": "2021-04-13T08:06:29.868-04:00",
+        "title": "Access and services during COVID-19",
+        "blurb": "Safety measures, service adjustments, and more",
+        "link": "https://library.temple.edu/categories/coronavirus",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "64",
+      "type": "highlight",
+      "attributes": {
+        "label": "Resources and support for the new year",
+        "updated_at": "2021-01-28T11:19:02.782-05:00",
+        "title": "Resources and support for the new year",
+        "blurb": "Read our January 13 update",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=535ed6c8a8",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "65",
+      "type": "highlight",
+      "attributes": {
+        "label": "Welcome back!",
+        "updated_at": "2021-02-03T14:52:14.410-05:00",
+        "title": "Welcome back!",
+        "blurb": "Your spring guide to the Libraries",
+        "link": "https://sites.temple.edu/librarynews/2021/01/12/welcome-back-your-spring-2021-guide-to-the-libraries/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "69",
+      "type": "highlight",
+      "attributes": {
+        "label": "Douglass Day Transcribe-a-thon",
+        "updated_at": "2021-02-17T09:31:34.915-05:00",
+        "title": "Douglass Day Transcribe-a-thon",
+        "blurb": "Participate in Douglass Day 2021. Click for more information.",
+        "link": "https://douglassday.org/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "85",
+      "type": "highlight",
+      "attributes": {
+        "label": "Summer here we come",
+        "updated_at": "2021-05-24T09:59:52.583-04:00",
+        "title": "Summer here we come",
+        "blurb": "Read our May 19 update",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=9d5e7f4171",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": true,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "74",
+      "type": "highlight",
+      "attributes": {
+        "label": "Black Lives Always Mattered!",
+        "updated_at": "2021-04-20T07:54:19.880-04:00",
+        "title": "Black Lives Always Mattered!",
+        "blurb": "Explore the virtual 360 exhibit now",
+        "link": "https://sites.google.com/temple.edu/blam360/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "68",
+      "type": "highlight",
+      "attributes": {
+        "label": "The spring semester is underway",
+        "updated_at": "2021-02-17T09:35:13.657-05:00",
+        "title": "The spring semester is underway",
+        "blurb": "Read our January 27 update",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=ad581f5cfd",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "71",
+      "type": "highlight",
+      "attributes": {
+        "label": "Upcoming opportunities and events",
+        "updated_at": "2021-02-26T07:49:53.156-05:00",
+        "title": "Upcoming opportunities and events",
+        "blurb": "Read our February 10 update",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=9d1fb2af55",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "72",
+      "type": "highlight",
+      "attributes": {
+        "label": "Celebrating open access",
+        "updated_at": "2021-03-10T07:57:08.711-05:00",
+        "title": "Celebrating open access",
+        "blurb": "Read our February 24 update",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=834d652292",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "82",
+      "type": "highlight",
+      "attributes": {
+        "label": "Announcing this year's winners",
+        "updated_at": "2021-05-04T08:26:54.157-04:00",
+        "title": "Announcing this year's winners",
+        "blurb": "Learn about the students and their projects",
+        "link": "https://sites.temple.edu/livingstone/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": true,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "67",
+      "type": "highlight",
+      "attributes": {
+        "label": "Visualizing “Fake News”",
+        "updated_at": "2021-03-22T10:05:35.206-04:00",
+        "title": "Visualizing “Fake News”",
+        "blurb": "Exploring Information Literacy Through Graphic Design",
+        "link": "https://sites.temple.edu/librarynews/2021/01/21/visualizing-fake-news-exploring-information-literacy-through-graphic-design/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "73",
+      "type": "highlight",
+      "attributes": {
+        "label": "Ready for daylight saving time",
+        "updated_at": "2021-03-24T07:50:06.539-04:00",
+        "title": "Ready for daylight saving time",
+        "blurb": "Read our March 9 update",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=75b12cf27b",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "81",
+      "type": "highlight",
+      "attributes": {
+        "label": "Crunch Time Cafe",
+        "updated_at": "2021-05-06T10:26:01.128-04:00",
+        "title": "Crunch Time Cafe",
+        "blurb": "Read our roundup of resources and services for end of the semester",
+        "link": "https://mailchi.mp/bcb8e15849c6/crunch-time-caf",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "70",
+      "type": "highlight",
+      "attributes": {
+        "label": "Reading for social change",
+        "updated_at": "2021-03-31T08:19:28.565-04:00",
+        "title": "Reading for social change",
+        "blurb": "A collaboration with the Wellness Resource Center",
+        "link": "https://sites.temple.edu/librarynews/2021/02/11/reading-for-social-change-perspectives-on-oppression-and-wellness/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "75",
+      "type": "highlight",
+      "attributes": {
+        "label": "Springtime is here",
+        "updated_at": "2021-04-06T09:47:23.670-04:00",
+        "title": "Springtime is here",
+        "blurb": "Read our March 23 update",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=f0067f9366",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "77",
+      "type": "highlight",
+      "attributes": {
+        "label": "Celebrate National Library Week with us!",
+        "updated_at": "2021-04-22T07:44:22.173-04:00",
+        "title": "Celebrate National Library Week with us!",
+        "blurb": "Read our April 6 update",
+        "link": "https://mailchi.mp/temple/celebrate-national-library-week-with-us",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "79",
+      "type": "highlight",
+      "attributes": {
+        "label": "Temple Toast ",
+        "updated_at": "2021-04-26T08:00:25.560-04:00",
+        "title": "Temple Toast ",
+        "blurb": "Join in the 24 hour philanthropic celebration of Temple",
+        "link": "giving.temple.edu/templetoast",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "78",
+      "type": "highlight",
+      "attributes": {
+        "label": "Mis/disinformation and COVID-19",
+        "updated_at": "2021-05-04T07:57:39.054-04:00",
+        "title": "Mis/disinformation and COVID-19",
+        "blurb": "A conversation about infodemiology",
+        "link": "https://sites.temple.edu/librarynews/2021/04/05/mis-disinformation-and-covid-19-a-conversation-about-infodemiology/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "83",
+      "type": "highlight",
+      "attributes": {
+        "label": "Temple Libraries: Here for Our Alumni!",
+        "updated_at": "2021-05-06T10:27:09.726-04:00",
+        "title": "Temple Libraries: Here for Our Alumni!",
+        "blurb": "Find out more about alumni resources and services",
+        "link": "https://sites.temple.edu/librarynews/2021/05/03/temple-libraries-here-for-our-alumni/",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": true,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "76",
+      "type": "highlight",
+      "attributes": {
+        "label": "Accepting applications",
+        "updated_at": "2021-05-17T08:04:42.257-04:00",
+        "title": "Accepting applications",
+        "blurb": "Learn more about the interdisciplinary graduate certificate in Cultural Analytics program",
+        "link": "https://library.temple.edu/categories/cultural-analytics-certificate-program",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "84",
+      "type": "highlight",
+      "attributes": {
+        "label": "Watch past programs",
+        "updated_at": "2021-05-17T08:13:58.256-04:00",
+        "title": "Watch past programs",
+        "blurb": "View recordings of spring programs on our website",
+        "link": "https://library.temple.edu/watchpastprograms",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": true,
+        "link_label": ""
+      }
+    },
+    {
+      "id": "80",
+      "type": "highlight",
+      "attributes": {
+        "label": "Spring semester wraps up",
+        "updated_at": "2021-05-24T09:59:14.191-04:00",
+        "title": "Spring semester wraps up",
+        "blurb": "Read our April 21 newsletter",
+        "link": "https://us11.campaign-archive.com/?u=b06797f0f6a4317cfe9c384d7&id=49302c1407",
+        "type_of_highlight": "DSC Event",
+        "tags": "",
+        "promoted": false,
+        "link_label": ""
+      }
+    }
+  ]
+}
