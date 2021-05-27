@@ -5,45 +5,35 @@ These are the Solr configuration files for the TUL Cob (LibrarySearch) web conte
 
 ## Prerequisites
 
-- These configurations are built for Solr 8.1
+- These configurations are built for Solr 8.3.1
 - The instructions below presume a SolrCloud multi-node setup (using an external Zookeeper)
 
 ## Local Testing / Development
 
-You need a local SolrCloud cluster running to load these into. For example, use the make commands + docker-compose file in https://github.com/tulibraries/ansible-playbook-solrcloud to start a cluster. That repository's makefile includes this set of configurations and collection (tul_cob-web) in its `make create-release-collections` and `make create-aliases` commands.
+To test locally do the following.
 
-If you want to go through those steps yourself, once you have a working SolrCloud cluster:
+* make up: Will spin up a local Solr instance and ruby container for running tests.
+* make load-data: Will load required data into Solr instance.
+* make test: Will run the search relevancy tests.
 
-1. clone this repository locally & change into the top level directory of the repository
+### Miscellaneous
+#### Starting over
+To start over from scratch you can run `make down` followed by `make up`
+There is a `make reload-config` which reloads the Solr config, but this will not delete the documents that were already present.
 
-```
-$ git clone https://github.com/tulibraries/tul_cob-web-solr.git
-$ cd tul_cob-web-solr
-```
+#### Beyond the basics
+Anything more interesting than a simple local test should probably happen inside the respective container.
 
-2. zip the contents of this repository *without* the top-level directory
+Use `make tty-app` to bash into the ruby container.
+Use `make tty-solr` to bash into the solr container.
 
-```
-$ zip -r - * > tul_cob-web.zip
-```
+#### Gem updates
+Gemfile.lock MUST NOT be updated from outside the container; doing so may cause conflicts with bundler version that is used inside the container vs whatever the local version of bundler that you have installed.
 
-3. load the configs zip file into a new SolrCloud ConfigSet (change the solr url to whichever solr you're developing against)
+To that end, if you need to update a gem do the following:
 
-```
-$ curl -X POST --header "Content-Type:application/octet-stream" --data-binary @tul_cob-web.zip "http://localhost:8081/solr/admin/configs?action=UPLOAD&name=tul_cob-web"
-```
-
-4. create a new SolrCloud Collection using that ConfigSet (change the solr url to whichever solr you're developing against)
-
-```
-$ curl "http://localhost:8090/solr/admin/collections?action=CREATE&name=tul_cob-web-1&numShards=1&replicationFactor=2&maxShardsPerNode=1&collection.configName=tul_cob-web"
-```
-
-5. create a new SolrCloud Alias pointing to that Collection (if you want to use an Alias; and change the solr url to whatever solr you're developing against):
-
-```
-$ curl "http://localhost:8090/solr/admin/collections?action=CREATEALIAS&name=tul_cob-web-1-dev&collections=tul_cob-web-1"
-```
+* `make tty-app`
+* Once inside the container run bundle update [gem-name]
 
 ## SolrCloud Deployment
 
@@ -60,5 +50,3 @@ Once the main branch has been adequately tested and reviewed, a release is cut. 
 4. and, manually, a full reindex DAG is kicked off from Airflow Production to this new tul_cob-web alias. Upon completion of the reindex, relevant clients are redeployed pointing at their new alias, and *then QA & UAT review occur*.
 
 See the process outlined here: https://github.com/tulibraries/docs/blob/main/services/solrcloud.md
-
-After some time (1-4 days, as needed), the older tul_cob-web collections are manually removed from Prod SolrCloud.

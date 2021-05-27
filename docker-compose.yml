@@ -1,0 +1,30 @@
+version: "3.3"
+
+services:
+  app:
+    image: ruby:2.7.2
+    working_dir: /app
+    depends_on:
+      - solr
+    tty: true
+    volumes:
+      - .:/app
+      - $PWD/bin/load-data:/bin/load-data
+    environment:
+      SOLR_WEB_URL: "http://solr:8983/solr/blacklight"
+      DO_INGEST: "${DO_INGEST}"
+      LC_ALL: "C.UTF-8"
+      BUNDLE_PATH: /app/vendor/bundle
+
+  solr:
+    image: solr:8.3.0
+    volumes:
+      - $PWD/bin/solr-configs-reset:/opt/docker-solr/scripts/solr-configs-reset
+      - .:/opt/solr/configs/tul_cob-web-solr
+    ports:
+      - 8983:8983
+    entrypoint:
+      - bash
+      - "-c"
+      - "precreate-core blacklight /opt/solr/configs/tul_cob-web-solr; \
+  exec solr -f -a '-Xms256m -Xmx512m'"

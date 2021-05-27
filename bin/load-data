@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# This script is used to load data into the Solr instance.
+# However, sometimes Solr is still loading and we need to wait until it's done
+# before we can begin.
+
+STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://solr:8983/solr)
+
+while [[ "$STATUS" != "302" ]]; do
+  echo waiting for setup to complete or equal 302.
+  echo "currently: $STATUS"
+  sleep 2
+  STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://solr:8983/solr)
+done
+
+bundle exec cob_web_index ingest --use-fixtures --delete

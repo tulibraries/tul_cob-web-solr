@@ -337,9 +337,6 @@
    <dynamicField name="*_f"  type="float"  indexed="true"  stored="true"/>
    <dynamicField name="*_d"  type="double" indexed="true"  stored="true"/>
 
-   <!-- Type used to index the lat and lon components for the "location" FieldType -->
-   <dynamicField name="*_coordinate"  type="tdouble" indexed="true"  stored="false"/>
-
    <dynamicField name="*_dt" type="date"    indexed="true"  stored="true"/>
    <dynamicField name="*_p"  type="location" indexed="true" stored="true"/>
 
