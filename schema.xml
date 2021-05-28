@@ -313,6 +313,7 @@
    <field name="PhoneticNames" type="PhoneticNames" indexed="true" stored="true" multiValued="true"/>
    <!-- default, catch all search field -->
    <field name="text" type="text" indexed="true" stored="false" multiValued="true"/>
+   <field name="web_content_type_t" type="text_en" indexed="true" stored="true" multiValued="false" />
 
    <!-- these display fields are NOT multi-valued -->
    <field name="record_creation_date" type="string" indexed="true" stored="true" multiValued="false"/>
@@ -379,6 +380,7 @@
    <copyField source="title_t" dest="title_unstem_search"/>
    <copyField source="specialties_t" dest="specialties_unstem_search"/>
    <copyField source="web_full_description_t" dest="full_description_unstem_search"/>
+
    <!-- sort fields  NOTE: no longer feasible with multiple dates -->
    <!--  <copyField source="pub_date" dest="pub_date_sort"/>  -->
 
