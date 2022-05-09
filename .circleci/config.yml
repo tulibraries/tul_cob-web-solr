@@ -23,7 +23,8 @@ workflows:
               only: /.*/
 jobs:
   run_tests:
-    machine: true
+    machine:
+      image: ubuntu-2004:current
     steps:
       - checkout
       - restore_cache:
