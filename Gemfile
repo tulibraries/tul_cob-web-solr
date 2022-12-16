@@ -8,4 +8,4 @@ gem "rsolr"
 gem "rspec"
 gem "cob_web_index",
   git: "https://github.com/tulibraries/cob_web_index.git",
-  branch: "DEVO-654-ruby-upgrade-v2"
+  tag: "0.3.2"

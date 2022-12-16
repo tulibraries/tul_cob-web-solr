@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/tulibraries/cob_web_index.git
-  revision: 25664850f1515789d922e4dd0f0e91ac62a6c2a8
-  branch: DEVO-654-ruby-upgrade-v2
+  revision: ef17a87cf75344a67775819d1d5df2bc09eaacf0
+  tag: 0.3.2
   specs:
     cob_web_index (0.1.0)
       gli (~> 2.18)
