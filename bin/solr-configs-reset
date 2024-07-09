@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-cp /opt/solr/configs/tul_cob-web-solr/solrconfig.xml /var/solr/data/blacklight/
-cp /opt/solr/configs/tul_cob-web-solr/schema.xml /var/solr/data/blacklight/
+cp /opt/solr/conf/tul_cob-web-solr/solrconfig.xml /var/solr/data/blacklight/
+cp /opt/solr/conf/tul_cob-web-solr/schema.xml /var/solr/data/blacklight/
 curl 'http://localhost:8983/solr/admin/cores?action=RELOAD&core=blacklight'
