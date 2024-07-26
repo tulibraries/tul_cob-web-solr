@@ -28,7 +28,7 @@
        that you fully re-index after changing this setting as it can
        affect both how text is indexed and queried.
   -->
-  <luceneMatchVersion>7.0.0</luceneMatchVersion>
+  <luceneMatchVersion>8.0.0</luceneMatchVersion>
 
   <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lib" />
   <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs" />
@@ -287,18 +287,18 @@
   </requestHandler>
 
   <query>
-    <filterCache class="solr.FastLRUCache"
+    <filterCache class="solr.CaffeineCache"
                  size="${filterCacheSize:2048}"
                  initialSize="${filterCacheInitialSize:2048}"
                  autowarmCount="256"/>
 
 
-    <queryResultCache class="solr.LRUCache"
+    <queryResultCache class="solr.CaffeineCache"
                       size="${queryResultCacheSize:2048}"
                       initialSize="${queryResultCacheInitialSize:2048}"
                       autowarmCount="128"/>
 
-    <documentCache class="solr.LRUCache"
+    <documentCache class="solr.CaffeineCache"
                    size="${documentCacheSize:2048}"
                    initialSize="${documentCacheInitialSize:2048}"/>
 
