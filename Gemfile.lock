@@ -77,7 +77,7 @@ GEM
     public_suffix (5.0.1)
     racc (1.7.3)
     rake (13.0.6)
-    rexml (3.3.3)
+    rexml (3.3.6)
       strscan
     rsolr (2.6.0)
       builder (>= 2.1.2)
