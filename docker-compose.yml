@@ -17,7 +17,8 @@ services:
       BUNDLE_PATH: /app/vendor/bundle
 
   solr:
-    image: solr:9.8.1
+    build:
+      context: .
     volumes:
       - $PWD/bin/solr-configs-reset:/opt/solr/docker/scripts/solr-configs-reset
       - $PWD:/opt/solr/conf/tul_cob-web-solr
