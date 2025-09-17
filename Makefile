@@ -18,4 +18,6 @@ reload-config:
 ps:
 	$(DOCKER) ps
 zip:
-	bash ./.circleci/build.sh
+	bash ./.github/scripts/build.sh
+deploy:
+	bash ./.github/scripts/deploy.sh
