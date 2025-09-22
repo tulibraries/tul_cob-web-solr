@@ -1,11 +1,12 @@
 # TUL COB Web Content Solr Configurations
-[![CircleCI](https://circleci.com/gh/tulibraries/tul_cob-web-solr.svg?style=svg)](https://circleci.com/gh/tulibraries/tul_cob-web-solr)
+[![Test](https://github.com/tulibraries/tul_cob-web-solr/actions/workflows/test.yml/badge.svg)](https://github.com/tulibraries/tul_cob-web-solr/actions/workflows/test.yml)
+[![Deploy](https://github.com/tulibraries/tul_cob-web-solr/actions/workflows/deploy.yml/badge.svg)](https://github.com/tulibraries/tul_cob-web-solr/actions/workflows/deploy.yml)
 
 These are the Solr configuration files for the TUL Cob (LibrarySearch) web content search & faceting Solr collection.
 
 ## Prerequisites
 
-- These configurations are built for Solr 8.3.1
+- These configurations are built for Solr 9.8.1
 - The instructions below presume a SolrCloud multi-node setup (using an external Zookeeper)
 
 ## Local Testing / Development

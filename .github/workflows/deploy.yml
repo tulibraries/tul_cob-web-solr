@@ -1,0 +1,30 @@
+name: Deploy
+
+on:
+  push:
+    tags:
+      - "[0-9]+"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      RELEASE_TAG: ${{ github.ref_name }}
+      SOLR_USER: ${{ secrets.SOLR_USER }}
+      SOLR_PASSWORD: ${{ secrets.SOLR_PASSWORD }}
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      
+      - name: Build configuration asset
+        run: make zip-github
+      
+      - name: Deploy configuration asset to SolrCloud
+        run: make deploy
