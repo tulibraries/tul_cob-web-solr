@@ -19,8 +19,10 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
+    bigdecimal (4.0.1)
     builder (3.2.4)
     concurrent-ruby (1.2.2)
+    csv (3.3.5)
     deprecation (1.1.0)
       activesupport
     diff-lcs (1.6.2)
@@ -45,7 +47,8 @@ GEM
     http-cookie (1.0.5)
       domain_name (~> 0.5)
     http-form_data (2.3.0)
-    httparty (0.21.0)
+    httparty (0.24.0)
+      csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
     httpclient (2.8.3)
@@ -62,11 +65,12 @@ GEM
       unf
     marc-fastxmlwriter (1.1.0)
       marc (~> 1.0)
-    mini_mime (1.1.2)
+    mini_mime (1.1.5)
     mini_portile2 (2.8.9)
     minitest (5.19.0)
     multi_json (1.15.0)
-    multi_xml (0.6.0)
+    multi_xml (0.8.1)
+      bigdecimal (>= 3.1, < 5)
     net-http (0.4.1)
       uri
     nokogiri (1.18.9)
