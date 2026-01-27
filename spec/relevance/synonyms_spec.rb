@@ -17,4 +17,27 @@ RSpec.describe "Key Word Relevance" do
       end
     end
   end
+
+  describe "preposition synonyms (BL-1956)" do
+    context "search term all fields = History on Fifty-Seven Cents" do
+      let(:search_term) { "History on Fifty-Seven Cents" }
+      let(:titles) { docs.map { |doc| doc["web_title_display"] }.flatten }
+
+      it "returns the webpage with 'of' in the title first" do
+        expect(titles.first).to eq("The History of Fifty-Seven Cents"),
+          "expected 'The History of Fifty-Seven Cents' first, got: #{titles.first.inspect}"
+      end
+    end
+
+    context "search term all fields = Perspectives of substance use disorder" do
+      let(:search_term) { "Perspectives of substance use disorder" }
+      let(:response) { solr.get("search", params: { q: search_term, rows: 50 }) }
+      let(:titles) { docs.map { |doc| doc["web_title_display"] }.flatten }
+
+      it "surfaces the highlight titled with 'on' in the results" do
+        expect(titles).to include("Perspectives on substance use disorder"),
+          "expected 'Perspectives on substance use disorder' in the results, got: #{titles}"
+      end
+    end
+  end
 end
