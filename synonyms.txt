@@ -69,6 +69,3 @@ arr. => arranged
 
 #added for BL-1469
 fines => borrowing
-
-# Added for BL-1956
-of, on
