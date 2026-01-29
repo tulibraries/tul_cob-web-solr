@@ -17,4 +17,28 @@ RSpec.describe "Key Word Relevance" do
       end
     end
   end
+
+  describe "preposition synonym handling" do
+    context "user searches with 'on' instead of 'of'" do
+      let(:search_term) { "History on Fifty-Seven Cents" }
+      let(:titles) { docs.map { |doc| doc["web_title_display"] }.flatten }
+
+      it "returns the page titled with 'of' first" do
+        expect(titles.first).to eq("The History of Fifty-Seven Cents"),
+          "expected 'The History of Fifty-Seven Cents' first, got: #{titles.first.inspect}"
+      end
+    end
+  end
+
+  describe "stopword handling" do
+    context "user prefixes the query with a conjunction stopword" do
+      let(:search_term) { "but fines" }
+      let(:links) { docs.map { |doc| doc["web_url_display"] }.flatten }
+
+      it "ignores the leading stopword and still ranks the expected result first" do
+        expect(links.first).to eq("https://library.temple.edu/services/borrowing"),
+          "expected borrowing service first when query begins with stopword, got: #{links.first.inspect}"
+      end
+    end
+  end
 end
