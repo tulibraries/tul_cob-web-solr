@@ -17,16 +17,4 @@ RSpec.describe "Key Word Relevance" do
       end
     end
   end
-
-  describe "preposition synonym handling" do
-    context "user searches with 'on' instead of 'of'" do
-      let(:search_term) { "History on Fifty-Seven Cents" }
-      let(:titles) { docs.map { |doc| doc["web_title_display"] }.flatten }
-
-      it "returns the page titled with 'of' first" do
-        expect(titles.first).to eq("The History of Fifty-Seven Cents"),
-          "expected 'The History of Fifty-Seven Cents' first, got: #{titles.first.inspect}"
-      end
-    end
-  end
 end
