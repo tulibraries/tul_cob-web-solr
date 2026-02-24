@@ -1,5 +1,6 @@
 # frozen_string_literal: true
-require 'spec_helper'
+
+require "spec_helper"
 
 RSpec.describe "Key Word Relevance by type" do
   solr = RSolr.connect(url: ENV["SOLR_WEB_URL"])
@@ -10,7 +11,7 @@ RSpec.describe "Key Word Relevance by type" do
   describe "lowering the relevance of events" do
     context "search term all fields = accommodations" do
       let(:search_term) { "accommodations" }
-      let(:types) { docs.map { |doc| doc["web_content_type_t"]}.flatten }
+      let(:types) { docs.map { |doc| doc["web_content_type_t"] }.flatten }
 
       it "should not return events within the first 5 results" do
         expect(types.first(5).any? { |type| type == "event" }).to eq(false),
@@ -26,7 +27,7 @@ RSpec.describe "Key Word Relevance by type" do
   describe "raise the relevance of finding aids over events" do
     context "search term all fields = Informatics" do
       let(:search_term) { "Informatics" }
-      let(:types) { docs.map { |doc| doc["web_content_type_t"]}.flatten }
+      let(:types) { docs.map { |doc| doc["web_content_type_t"] }.flatten }
 
       it "should return finding aids before events" do
         expect(types.index("Finding Aids")).to be < types.index("event"),
@@ -38,7 +39,7 @@ RSpec.describe "Key Word Relevance by type" do
   describe "raise the relevance of finding aids over highlights" do
     context "search term all fields = Test+Highlight" do
       let(:search_term) { "Test Highlight" }
-      let(:types) { docs.map { |doc| doc["web_content_type_t"]}.flatten }
+      let(:types) { docs.map { |doc| doc["web_content_type_t"] }.flatten }
 
       it "should return finding aids before highlights" do
         expect(types.index("Finding Aids")).to be < types.index("highlight"),
@@ -50,7 +51,7 @@ RSpec.describe "Key Word Relevance by type" do
   describe "Finding aids returns first when most relevant" do
     context "search term all fields = Pennsylvania Ballet" do
       let(:search_term) { "Pennsylvania Ballet" }
-      let(:titles) { docs.map { |doc| doc["web_title_display"]}.flatten }
+      let(:titles) { docs.map { |doc| doc["web_title_display"] }.flatten }
 
       it "should return finding aids first" do
         expect(titles.first).to eq("Pennsylvania Ballet Records")
@@ -59,7 +60,7 @@ RSpec.describe "Key Word Relevance by type" do
 
     context "search term all fields = occupy" do
       let(:search_term) { "occupy" }
-      let(:titles) { docs.map { |doc| doc["web_title_display"]}.flatten }
+      let(:titles) { docs.map { |doc| doc["web_title_display"] }.flatten }
 
       it "should return finding aids first" do
         expect(titles.first).to eq("Occupy Philadelphia Records")
@@ -70,7 +71,7 @@ RSpec.describe "Key Word Relevance by type" do
   describe "Raising the relevance of people" do
     context "search term all fields = economics" do
       let(:search_term) { "economics" }
-      let(:types) { docs.map { |doc| doc["web_content_type_t"]}.flatten }
+      let(:types) { docs.map { |doc| doc["web_content_type_t"] }.flatten }
 
       it "should return a person within the first 3 results" do
         expect(types.first(3).any? { |type| type == "person" }).to eq(true),
