@@ -5,7 +5,7 @@ permissions:
 
 on:
   workflow_run:
-    workflows: ["Test", "Deploy"]
+    workflows: ["Test", "Deploy", "Dependabot auto-merge"]
     types: [completed]
 
 jobs:
