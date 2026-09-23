@@ -10,3 +10,4 @@ gem "rubocop"
 gem "cob_web_index",
   git: "https://github.com/tulibraries/cob_web_index.git",
   tag: "0.3.2"
+gem "json", "~> 2.21"
