@@ -71,7 +71,7 @@ GEM
       mutex_m
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
-    json (3.0.2)
+    json (2.21.2)
     jsonpath (1.1.2)
       multi_json
     language_server-protocol (3.17.0.6)
@@ -179,6 +179,7 @@ PLATFORMS
 
 DEPENDENCIES
   cob_web_index!
+  json (~> 2.21)
   rsolr
   rspec
   rubocop
